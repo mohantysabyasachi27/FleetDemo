@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/vehicle_and_device_info_card"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardElevation="4dp"
+    app:cardBackgroundColor="@color/btn_color_disabled"
+    android:animateLayoutChanges="true"
+    app:cardPreventCornerOverlap="false"
+    app:cardUseCompatPadding="true"
+    app:contentPadding="5dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:id="@+id/task_title"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:text=""/>
+</android.support.v7.widget.CardView>

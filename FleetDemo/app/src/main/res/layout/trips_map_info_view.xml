@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:id="@+id/marker_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:minWidth="100dp"
+        android:background="@drawable/trip_info_window_bg_green"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/event_name"
+            android:text=""
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawablePadding="2dp"
+            android:paddingBottom="2dp"
+
+            android:fontFamily="@font/proximanova_reg"
+            android:gravity="center" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/divider_color"
+            android:padding="5dp" />
+
+        <TextView
+            android:id="@+id/time_date_event"
+            android:gravity="center"
+            android:text=""
+            android:layout_width="match_parent"
+            android:fontFamily="@font/proximanova_reg"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+
+    <!-- <TextView
+         android:id="@+id/tv_lng"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content" />-->
+
+</LinearLayout>

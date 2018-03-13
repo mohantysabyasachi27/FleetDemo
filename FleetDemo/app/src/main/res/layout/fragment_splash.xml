@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.3" >
+
+        <ImageView
+            android:id="@+id/splash_copyright_logoo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/logo" />
+        <TextView
+            android:id="@+id/splash_copyright_textt"
+            android:layout_alignParentBottom="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:maxLines="2"
+            android:paddingBottom="10dp"
+            android:singleLine="false"
+            android:text="@string/splash_copyright"
+            android:textColor="#666666"
+            android:textSize="12sp"
+            android:fontFamily="monospace"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_gravity="bottom"
+        android:gravity="bottom"
+        android:visibility="gone"
+        android:layout_height="0dp"
+        android:layout_weight="0.55" >
+
+
+
+        <TextView
+            android:id="@+id/splash_copyright_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:maxLines="2"
+            android:paddingBottom="10dp"
+            android:singleLine="false"
+            android:visibility="gone"
+            android:text="@string/splash_copyright"
+            android:textColor="@color/text_color"
+            android:textSize="15sp"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+
+
+
+</LinearLayout>

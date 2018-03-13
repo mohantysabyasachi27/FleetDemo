@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/mapview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+
+
+    <RelativeLayout
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/wzat_my_location_btn"
+        android:layout_width="54dp"
+        android:layout_height="47dp"
+        android:layout_gravity="bottom|left"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="20dp"
+        android:paddingBottom="10dp"
+        android:src="@drawable/gmap_my_loc_btn_grey"
+        android:contentDescription="@string/app_name" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/fif_location_off_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/app_bg_color"
+        android:clickable="true"
+        android:visibility="gone">
+
+        <View
+            android:id="@+id/fif_dummy_view"
+            android:layout_width="1dp"
+            android:layout_height="1dp"
+            android:layout_centerInParent="true"
+            android:layout_margin="10dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/fif_dummy_view"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/fif_ic_no_places"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fif_dummy_view"
+            android:gravity="center"
+            android:text="@string/fif_gps_off"
+            android:textColor="@color/text_color_light"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+</FrameLayout>

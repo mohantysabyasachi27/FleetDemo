@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#40B4E5</color>
+    <color name="colorPrimaryDark">#0099CC</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="independent_btn_tapped">#76777B</color>
+    <color name="app_bg_color">#F8F8F8</color>
+    <color name="home_error_bg_color">#4A5767</color>
+    <color name="navbar_bg_color">#40B4E5</color>
+    <color name="text_color">#0C0C0C</color>
+    <color name="text_color_light">#999999</color>
+    <color name="popup_title_bg_color">#40B4E5</color>
+    <color name="popup_btn_normal_bg_color">#40B4E5</color>
+    <color name="popup_btn_tap_bg_color">#76777B</color>
+    <color name="divider_color">#dddddd</color>
+    <color name="vehicle_selection_paired_color">#8F8B88</color>
+    <color name="vehicle_selection_not_paired_color">#34BDA8</color>
+    <color name="home_item_focused">#FF40B4E5</color>
+    <color name="score_sub_color_foreground">#0099CC</color>
+    <color name="score_sub_color_background">#33000000</color>
+    <color name="score_wheel_background">#33000000</color>
+    <color name="score_text_color">#999999</color>
+    <color name="reward_card_color_1">#46A040</color>
+    <color name="reward_card_color_2">#1B5A7D</color>
+    <color name="wzat_direction_steps_bg">#6cc049</color>
+    <color name="selected_tab_bg">#5d6b7b</color>
+    <color name="sub_heading">#676e75</color>
+    <color name="number_string_color">#5d6b7b</color>
+    <color name="wzat_distance_bg">#e7e9ea</color>
+    <color name="fif_header_bg">#676e75</color>
+    <color name="fif_red_path">#fc5b3f</color>
+    <color name="fif_green_path">#6cc049</color>
+    <color name="fif_place_details_bg">#6cc049</color>
+    <color name="wzat_direct_route_color">#4A5767</color>
+    <color name="tab_unselected_color">#86878C</color>
+    <color name="tab_selected_color">#40B4E5</color>
+    <color name="vehicle_selection_search_bg_color">#2e353d</color>
+    <color name="spinner_dropdown_text">#676E75</color>
+    <color name="dashboard_stat_text_color">#666666</color>
+    <color name="grid_layout_text_color">#676E75</color>
+
+    <color name="cal_overlapping_days">#596676</color>
+
+    <color name="score_less_than_fifty">#ea5444</color>
+    <color name="score_more_than_eighty">#6cc049</color>
+    <color name="score_fifty_to_eighty">#ffc524</color>
+
+
+    <color name="graph_top_stack">#c9602c</color>
+    <color name="graph_middle_stack">#d39e0a</color>
+    <color name="graph_bottom_stack">#68c39f</color>
+
+    <color name="graph_mileage_blue">#40b4e5</color>
+    <color name="graph_high_speed">#c9602c</color>
+
+    <color name="greyed_out">#676e75</color>
+
+    <color name="onyx">#000000</color>
+    <color name="gold">#b29647</color>
+    <color name="bronze">#a67f4b</color>
+    <color name="diamond">#757d85</color>
+    <color name="platinum">#787878</color>
+    <color name="silver">#999999</color>
+
+
+
+
+    <!--fif-->
+    <color name="btn_color_enabled">#40B4E5</color>
+    <color name="btn_color_pressed">#1378A4</color>
+    <color name="btn_color_disabled">#AAAAAA</color>
+
+    <!--vehicle health-->
+
+    <color name="not_known_health">#aaaaaa</color>
+    <color name="not_healthy">#C92A2C</color>
+    <color name="healthy">#5AB932</color>
+
+    <color name="btn_color_ripple">#0D5472</color>
+
+</resources>

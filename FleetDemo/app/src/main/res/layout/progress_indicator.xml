@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/popup_progress_car" />
+
+    <ImageView
+        android:id="@+id/progress_indicator_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/popup_progress_arrow" />
+
+</FrameLayout>

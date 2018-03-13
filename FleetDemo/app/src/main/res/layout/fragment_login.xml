@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:background="@android:color/transparent">
+
+    <LinearLayout android:layout_width="match_parent"
+        android:id="@+id/parent_usr_layout"
+        android:layout_height="match_parent"
+        android:animateLayoutChanges="true"
+        android:orientation="vertical"
+        >
+        <View android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:visibility="gone"
+            android:layout_weight="1"
+            >
+
+        </View>
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.5"
+            android:gravity="center|bottom"
+            android:orientation="vertical"
+            >
+            <ImageView
+                android:id="@+id/login_logo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/logo"
+                android:layout_gravity="center" />
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="match_parent"
+            android:id="@+id/login_usr_layout"
+            android:layout_height="0dp"
+            android:layout_weight="2.5"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:animateLayoutChanges="true"
+            android:visibility="visible">
+
+            <com.github.florent37.materialtextfield.MaterialTextField
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                app:mtf_labelColor="#666"
+                app:mtf_image="@drawable/ic_small_mail"
+                >
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter Username"
+                    android:id="@+id/login_usr_field"
+                    android:textColor="#333"
+                    android:textSize="20sp" />
+
+            <!--<EditText-->
+                <!--android:id="@+id/login_usr_field"-->
+                <!--android:layout_width="fill_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:background="@drawable/login_field_bg"-->
+                <!--android:drawablePadding="10dp"-->
+                <!--android:hint="Username"-->
+                <!--android:imeOptions="actionNext"-->
+                <!--android:inputType="textEmailAddress"-->
+                <!--android:maxLength="60"-->
+                <!--android:paddingBottom="20dp"-->
+                <!--android:singleLine="true"-->
+                <!--android:textColor="@color/text_color"-->
+                <!--android:textCursorDrawable="@null"-->
+                <!--android:textSize="18sp"-->
+                <!--android:layout_below="@+id/image_layout"-->
+                <!--android:layout_marginTop="20dp"-->
+                <!--android:layout_marginRight="30dp"-->
+                <!--android:layout_marginLeft="30dp"-->
+                <!--android:fontFamily="monospace"-->
+                <!--android:text="" />-->
+            </com.github.florent37.materialtextfield.MaterialTextField>
+
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent"
+            android:id="@+id/login_signin_button_layout"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:visibility="visible"
+            android:gravity="bottom|center">
+
+            <TextView
+                android:id="@+id/login_signin_button"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/popup_base_btn_bg"
+                android:clickable="true"
+                android:gravity="center"
+                android:text="LOGIN"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:fontFamily="monospace"  />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</FrameLayout>

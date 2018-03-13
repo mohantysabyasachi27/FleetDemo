@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="nav_bar_min_height">40dp</dimen>
+    <dimen name="navbar_text_size">25sp</dimen>
+    <dimen name="splash_copyright_text_size">15sp</dimen>
+    <dimen name="login_singin_btn_size">28sp</dimen>
+    <dimen name="login_edit_text_size">18sp</dimen>
+    <dimen name="home_item_title_size">17sp</dimen>
+    <dimen name="home_item_badge_size">18sp</dimen>
+    <dimen name="home_view_error_text_size">15sp</dimen>
+    <dimen name="home_view_error_button_size">7sp</dimen>
+    <dimen name="error_text_size">8sp</dimen>
+    <dimen name="rippleStrokeWidth">2dp</dimen>
+    <dimen name="rippleRadius">64dp</dimen>
+
+    <!-- POPUP -->
+    <dimen name="popup_corner_radius">6dp</dimen>
+    <dimen name="popup_btn_padding_vertical">10dp</dimen>
+    <dimen name="popup_btn_padding_horizontal">2dp</dimen>
+
+    <!-- Score Fragment -->
+    <dimen name="score_bar_text_size">14sp</dimen>
+    <dimen name="score_sub_bar_ref_height">2sp</dimen>
+    <dimen name="score_sub_bar_height">8sp</dimen>
+    <dimen name="score_sub_bar_text_size">20sp</dimen>
+    <dimen name="score_sub_bar_padding">10dp</dimen>
+    <dimen name="score_wheel_stroke_width">40dp</dimen>
+    <dimen name="score_wheel_text_size">60sp</dimen>
+    <dimen name="score_topranker_name_size">12sp</dimen>
+    <dimen name="score_topranker_score_size">12sp</dimen>
+
+    <!-- Rewards -->
+    <dimen name="rewards_tab_text_size">18sp</dimen>
+    <dimen name="rewards_card_text_size">15sp</dimen>
+
+    <!-- Wherezat -->
+    <dimen name="wzat_camera_padding">40dp</dimen>
+    <dimen name="gmap_polyline_width">4dp</dimen>
+    <dimen name="wzat_steps_layout_height">130dp</dimen>
+    <!-- Prompt Dim -->
+    <dimen name="prompt_margin">8dp</dimen>
+    <dimen name="prompt_title_margin">4dp</dimen>
+    <dimen name="prompt_text_margin">6dp</dimen>
+    <dimen name="prompt_text_size">40sp</dimen>
+    <dimen name="share_item_text_height">9sp</dimen>
+
+    <!-- Profile -->
+    <dimen name="profile_item_title_text_size">10sp</dimen>
+    <dimen name="profile_item_title_text_size_det">12sp</dimen>
+    <dimen name="profile_item_data_text_size">14sp</dimen>
+
+    <!-- Trips -->
+    <dimen name="trips_date_text">18sp</dimen>
+    <dimen name="trips_date_selection_tab">16sp</dimen>
+    <dimen name="trips_item_title_size">14sp</dimen>
+    <dimen name="trips_item_data_size">21sp</dimen>
+    <dimen name="trips_data_text_size">15sp</dimen>
+    <dimen name="trips_event_text_size">20sp</dimen>
+    <dimen name="trips_event_map_info_title">17sp</dimen>
+    <dimen name="trips_event_map_info_data">14sp</dimen>
+
+    <!-- COMPARE -->
+    <dimen name="compare_list_rank_size">16sp</dimen>
+    <dimen name="compare_list_score_size">18sp</dimen>
+    <dimen name="comapre_page_rank">20sp</dimen>
+    <dimen name="comapre_page_score">26sp</dimen>
+    <dimen name="comapre_page_name">18sp</dimen>
+
+    <!-- Contact Us -->
+    <dimen name="contact_us_text_size_label">18sp</dimen>
+    <dimen name="contact_us_text_size_comment">18sp</dimen>
+
+    <!-- Dashbaord layouts -->
+    <dimen name="progress_bar_height">110dp</dimen>
+    <dimen name="progress_circle_height">90dp</dimen>
+    <dimen name="map_view_height">140dp</dimen>
+    <dimen name="grid_row_height">160dp</dimen>
+    <dimen name="grid_image_height">65dp</dimen>
+    <dimen name="grid_image_layout_height">107dp</dimen>
+    <dimen name="stat_label">12sp</dimen>
+    <dimen name="stat_value">24sp</dimen>
+    <dimen name="stat_value_dashboard">22sp</dimen>
+    <dimen name="stat_margin_left_right">20dp</dimen>
+    <dimen name="stat_margin_left_right_half">5dp</dimen>
+    <dimen name="stat_value_label_divider">7dp</dimen>
+    <dimen name="thirty_dp">30dp</dimen>
+
+    <!-- Settings-->
+    <dimen name="settings_screen_vehicle_header_title">10sp</dimen>
+
+    <!-- Home Activity-->
+    <dimen name="home_title_spinner_vehicle_selector">14sp</dimen>
+    <dimen name="home_title_size">20sp</dimen>
+    <dimen name="spinner_dropdown_text_size">14sp</dimen>
+    <dimen name="spinner_row_height">40dp</dimen>
+    <dimen name="spinner_radio_right_padding">18dp</dimen>
+    <dimen name="spinner_radio_left_padding">30dp</dimen>
+    <dimen name="spinner_radio_button_height">20dp</dimen>
+    <dimen name="nav_bar_height">70dp</dimen>
+    <dimen name="nav_bar_top_padding">20dp</dimen>
+    <dimen name="grid_layout_text_size">10sp</dimen>
+    <dimen name="grid_margin">2dp</dimen>
+
+    <!-- Trips Activity-->
+    <dimen name="trip_label_small">9sp</dimen>
+    <dimen name="trip_label_medium">14sp</dimen>
+    <dimen name="trip_address_medium">12sp</dimen>
+    <dimen name="trip_stats_small">7sp</dimen>
+    <dimen name="trip_list_item_big">20sp</dimen>
+
+
+
+    <!--fif-->
+    <dimen name="btn_corner_radius">6dp</dimen>
+</resources>

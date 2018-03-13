@@ -1,0 +1,1212 @@
+<resources>
+    <string name="app_name">FleetDemo</string>
+    <string name="splash_copyright">2012-2017 Azuga, Inc. All rights reserved.</string>
+
+
+    <string name="bg_service_desc">Application running in background.</string>
+
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="next">Next</string>
+    <string name="done">Done</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="skip">Skip</string>
+    <string name="pair">Pair</string>
+    <string name="not_now">Not Now</string>
+    <string name="share_title">Share via</string>
+    <string name="info">Info</string>
+    <string name="call">Call</string>
+    <string name="success">Success</string>
+    <string name="error">Error</string>
+    <string name="save">Save</string>
+    <string name="retry">Retry</string>
+    <string name="Continue">Continue</string>
+    <string name="allow">Allow</string>
+    <string name="confirm">Confirm</string>
+    <string name="submit">Submit</string>
+    <string name="go">Go</string>
+    <string name="search">Search</string>
+    <string name="accept">Accept</string>
+    <string name="please_wait">Please Wait..</string>
+    <string name="fetching_direction">Fetching directions. Please wait&#8230;</string>
+    <string name="no_network_msg">Bummer! No internet connection.</string>
+    <string name="unexpected_error_msg">You have experienced a technical error. We apologize.</string>
+    <string name="hidden_url_settings_baseurl_title">Base URL</string>
+    <string name="hidden_url_settings_weburl_title">Web URL</string>
+    <string name="hidden_settings_title">Hidden Truth</string>
+    <string name="hidden_url_settings_title">URL Settings</string>
+    <string name="camera_image_capture_err">Error while capturing the image. Please try again.</string>
+    <string name="camera_image_capture_err_no_sd">No sd card found. Please insert sd card to take pic.</string>
+    <string name="profile_syn_error_msg">Error while loading data</string>
+    <string name="gps_not_found_err_title">Location Permissions Required</string>
+    <string name="gps_not_found_err_msg">The app needs access to your location to determine where you are. Don\'t worry, battery consumption will be minimum.</string>
+    <string name="gps_error_settings_redirect">Allow</string>
+    <string name="gps_error_settings_cancel">No Thanks</string>
+    <string name="fetching_location_msg">Fetching your location, please wait&#8230;</string>
+    <string name="forced_logout_msg">You have been logged out of the app.</string>
+
+    <!-- Login Resources -->
+    <string name="login_username_hint">Username (email)</string>
+    <string name="login_customer_hint">Customer ID</string>
+    <string name="login_pwd_hint">Password</string>
+    <string name="login_phone_hint">Phone Number</string>
+    <string name="login_employee_hint">Employee ID</string>
+    <string name="login_pin_hint">PIN</string>
+    <string name="login_signin_btn_customer">Proceed</string>
+    <string name="login_signin_btn">Log In</string>
+    <string name="login_forgot_pwd_btn">Send</string>
+    <string name="login_forgot_pwd">Forgot your password?</string>
+    <string name="login_remember_pwd">Remembered your password?</string>
+    <string name="login_err_missing_customerId">Please enter Customer ID.</string>
+    <string name="login_err_customerId_text">Customer ID should be numeric.</string>
+    <string name="login_err_invalid_customerId">Customer ID is not valid.</string>
+    <string name="login_err_missing_email">Please enter your email address.</string>
+    <string name="login_err_invalid_email">Sorry, please enter a valid email address.</string>
+    <string name="login_err_missing_pwd">Sorry, need your password to login.</string>
+    <string name="login_err_missing_phone">Sorry, need your Phone Number to login.</string>
+    <string name="login_err_missing_employee">Sorry, need your Employee ID to login.</string>
+    <string name="login_err_missing_pin">Sorry, need your PIN to login.</string>
+    <string name="login_err_pin_text">PIN should be 4 digit numeric.</string>
+    <string name="login_err_wrong_credential">Sorry, that was wrong. Please check and try again.</string>
+    <string name="login_err_pwd_reset_title">Reset Unsuccessful</string>
+    <string name="login_err_pwd_reset">Sorry, we were unable to reset your password. Please contact your supervisor.</string>
+    <string name="login_success_pwd_reset_title">Reset Successful</string>
+    <string name="login_success_pwd_reset">That\'s done. Please check your e-mail on instructions to set the new password.</string>
+    <string name="login_validate_customer_msg">Validating Customer ID</string>
+    <string name="login_signing_msg">Logging in. Please wait&#8230;</string>
+    <string name="login_multiple_title">Multiple Login</string>
+    <string name="login_err_mode_changed">Your account is configured to login by %1$s. Please go back and try again.</string>
+    <string name="login_confirm_customer_msg"><![CDATA[Please confirm you wish to log into the Azuga Customer ID : <b>%1$s</b>.<br><br><font color=\'red\'>Once confirmed, this cannot be changed.</font>]]></string>
+    <string name="login_confirm_user_msg"><![CDATA[You are logging in as %1$s, as a %2$s from %3$s.]]></string>
+    <string name="login_confirm_customer_btn_confirm">Confirm</string>
+    <string name="login_confirm_customer_btn_cancel">Go Back</string>
+    <string name="login_different_customer_mail">Username (email) entered doesn\'t belong to the selected Customer ID %1$s.\nEither the Username or Customer ID needs to be changed. Please select what you would like to change.</string>
+    <string name="login_change_customer">Customer ID</string>
+    <string name="login_change_user">Username</string>
+
+    <string name="user_type_super_user">Super User</string>
+    <string name="user_type_admin">Admin</string>
+    <string name="user_type_web_admin">Web Admin</string>
+    <string name="user_type_driver">Driver</string>
+    <string name="user_type_reseller">Reseller</string>
+    <string name="user_type_worker">Worker</string>
+
+    <!-- Vehicle Selection Resources -->
+    <string name="vehicle_selection_title">Vehicle Selection</string>
+    <string name="vehicle_selection_skip">SKIP</string>
+    <string name="vehicle_not_paired_error">No vehicle associated.</string>
+    <string name="vehicle_pair_status_gps">We\'re determining your location, this usually doesn\'t take long.</string>
+    <string name="vehicle_pair_status_gps_error">Error while getting GPS. Please try again.</string>
+    <string name="vehicle_pair_status_vehicle">Give us awhile to search for nearby vehicles.</string>
+    <string name="vehicle_pair_status_vehicle_found">There are %1$d vehicle(s) around you.\nWhich one are you going to drive?</string>
+    <string name="vehicle_pair_status_no_vehicle">Bummer! No vehicles around you.\nContinue by tapping on SKIP :)</string>
+    <string name="vehicle_pair_pairing">Pairing \'%1$s\' with you.</string>
+    <string name="vehicle_pair_pairing_error_title">Pairing Alert</string>
+    <string name="vehicle_pair_pairing_error_msg">Something went wrong while trying to pair with the selected vehicle. Please try again</string>
+    <string name="vehicle_pair_pairing_success">"We've done it! You are now paired with \'%1$s\'"</string>
+    <string name="vehicle_unpair_notification_title">Unpair with %1$s?</string>
+    <string name="vehicle_unpair_notification_msg">This will remove your association with the vehicle.</string>
+    <string name="vehicle_pair_notification_title">Pair with %1$s?</string>
+    <string name="vehicle_pair_notification_msg">This will make you the associated driver to the vehicle.</string>
+    <string name="vehicle_pair_paired_notification_title">Pair with %1$s?</string>
+    <string name="vehicle_pair_paired_notification_msg">This will make you the associated driver to the vehicle.</string>
+    <string name="vehicle_list_paired_msg">Paired</string>
+    <string name="vehicle_list_not_paired_msg">Not Paired</string>
+    <string name="vehicle_pair_paired_msg">Paired with you</string>
+    <string name="vehicle_list_btn_pair">Pair</string>
+    <string name="vehicle_list_btn_unpair">Unpair</string>
+    <string name="vehicle_pair_unpairing">Unpairing \'%1$s\' with you.</string>
+    <string name="vehicle_pair_unpairing_success">Vehicle \'%1$s\' unpaired successfully.</string>
+    <string name="vehicle_unpair_error_title">Unable to Unpair</string>
+    <string name="vehicle_search_hint">Search</string>
+    <string name="vehicle_unpair_error_msg">Something went wrong while trying to unpair with the selected vehicle. Please try again.</string>
+    <string name="vehicle_selection_settings_redirect">Open Settings</string>
+
+    <!-- HOME Resources -->
+    <string name="home_title">Dashboard</string>
+    <string name="home_item_title_score">Score</string>
+    <string name="home_item_title_rewards">Rewards</string>
+    <string name="home_item_title_work">Work</string>
+    <string name="home_item_title_utils">Utilities</string>
+    <string name="home_item_title_trips">Trip Log</string>
+    <string name="home_item_locked_title">Info</string>
+    <string name="home_item_title_settings">Settings</string>
+    <string name="home_item_title_chat">Messages</string>
+    <string name="home_item_locked_msg">This functionality is currently locked.</string>
+    <string name="home_item_title_faq">FAQ</string>
+    <string name="home_item_title_live_map">Live Status</string>
+
+    <!-- Score Fragment -->
+    <string name="score_title">Score</string>
+    <string name="score_subscore_break">Braking</string>
+    <string name="score_subscore_speeding">Speeding</string>
+    <string name="score_subscore_idling">Idling</string>
+    <string name="score_subscore_accel">Acceleration</string>
+    <string name="score_subscore_distracted">Distraction</string>
+    <string name="score_subscore_cornering">Cornering</string>
+    <string name="score_subscore_seatbelt">SeatBelt</string>
+    <string name="score_topranker_showAll">Show All</string>
+    <string name="score_loading_msg">Loading scores. Please wait.</string>
+    <string name="score_empty_msg">We cannot give you a score as you have not taken any trips in the last %1$d days.</string>
+    <string name="score_share_sub">My Azuga Score</string>
+    <string name="score_share_msg_top_ranker">Good to be in the top 10 drivers in my group! http://azuga.com</string>
+    <string name="score_share_msg">My Azuga driver safety score is %1$d. Working on getting into the top! http://azuga.com</string>
+    <string name="score_rewards_title">Azuga Rewards</string>
+    <string name="score_rewards_msg"><![CDATA[Earn Azuga Rewards by driving safe and improving your overall score.<br/><br/>A consistent score of 85 and above would qualify you in Azuga Awards league.]]></string>
+    <string name="score_empty_trends_title">Trends</string>
+    <string name="score_empty_trends_msg">Trends Data is not available. Please try again tomorrow.</string>
+    <string name="score_empty_group">You are ranked at the top as you are the only driver in the group.</string>
+    <string name="score_empty_company">You are ranked at the top as you are the only driver in the company.</string>
+    <string name="score_compare_disable_group" formatted="false">Your rank (%1$d) places you in the %2$s %3$d%4$s of all drivers in your group.</string>
+    <string name="score_compare_disable_company" formatted="false">Your rank (%1$d) places you in the %2$s %3$d%4$s of all drivers in your company.</string>
+    <string name="score_compare_top">top</string>
+    <string name="score_compare_bottom">bottom</string>
+
+    <!-- Rewards -->
+    <string name="rewards_title">Rewards</string>
+    <string name="rewards_refresh_msg">Getting latest rewards. Please wait..</string>
+    <string name="rewards_empty_pending_msg">You do not have any rewards at the moment. We will notify you when your supervisor rewards you for your performance.</string>
+    <string name="rewards_notification_redeem_now">Redeem Now</string>
+    <string name="rewards_redeemed_pin_copied">Pin copied.</string>
+    <string name="rewards_redeemed_code_copied">Coupon Code copied.</string>
+    <string name="rewards_pending_actn">Process Your Reward</string>
+    <string name="rewards_redeemed_link_text">Redeem your Reward</string>
+    <string name="rewards_date_received_title">Delivered : %1$s</string>
+    <string name="rewards_redemmed_charity_msg">\"Not for Me, but for Others.\"</string>
+    <string name="rewards_redeemed_tc"><![CDATA[<u>Terms & Conditions</u>]]></string>
+    <string name="rewards_redeemed_help"><![CDATA[<u>Redemption Instructions</u>]]></string>
+    <string name="rewards_redeemed_help_dialog_title">Redemption Instructions</string>
+    <string name="reward_tc_amazon"><![CDATA[Restrictions apply, see<br>amazon.com/gc-legal]]></string>
+    <string name="reward_tc_burgerking"><![CDATA[BURGER KING® is not a sponsor of the rewards or promotion or otherwise affiliated with Azuga, Inc. The logos and other identifying marks attached are trademarks of and owned by each represented company and/or its affiliates. Restaurant participation may vary. BK® eGifs may not be redeemable at all BURGER KING® locations.]]></string>
+    <string name="reward_tc_chili"><![CDATA[Chili\’s is not a sponsor of the rewards or otherwise affiliated with Azuga, Inc. The logos and other identifying marks attached are trademarks of and owned by each represented company and/or its affiliates.  Please visit each company\'s website for additional terms and conditions.]]></string>
+    <string name="reward_tc_darden"><![CDATA[Darden Restaurants, Inc. is not a sponsor of the rewards or otherwise affiliated with Azuga, Inc. The logos and other identifying marks attached are trademarks of and owned by each represented company and/or its affiliates. Please visit each company\'s website for additional terms and conditions.]]></string>
+    <string name="reward_tc_domino"><![CDATA[Participation by Domino’s Pizza in the program is not intended as, and shall not constitute, a promotion or marketing of the program by Domino\’s Pizza.]]></string>
+    <string name="reward_tc_ihop"><![CDATA[IHOP is not a sponsor of the rewards or promotion or otherwise affiliated with Azuga, Inc. The logos and other identifying marks attached are trademarks of and owned by each represented company and/or its affiliates.]]></string>
+    <string name="reward_tc_jiffylube"><![CDATA[Jiffy Lube® is not a sponsor of the rewards or otherwise affiliated with Azuga, Inc. The logos and other identifying marks attached are trademarks of and owned by each represented company and/or its affiliates. Please visit each company\'s website for additional terms and conditions.]]></string>
+    <string name="reward_tc_maggiano"><![CDATA[Maggiano\’s is not a sponsor of the rewards or otherwise affiliated with Azuga, Inc. The logos and other identifying marks attached are trademarks of and owned by each represented company and/or its affiliates.  Please visit each company\'s website for additional terms and conditions.]]></string>
+    <string name="reward_tc_tgif"><![CDATA[T.G.I. Friday’s® is not a sponsor of the rewards or otherwise affiliated with Azuga, Inc. The logos and other identifying marks attached are trademarks of and owned by each represented company and/or its affiliates.  Please visit each company\'s website for additional terms and conditions.]]></string>
+    <string name="reward_tc_walmart"><![CDATA[Azuga, Inc., Azuga Driver Rewards is/are not affiliated with Wal-Mart Stores, Inc.,  Wal-Mart Stores Arkansas, LLC, or Walmart.com or any of their affiliates. Wal-Mart Stores, Inc.,  Wal-Mart Stores Arkansas, LLC,Walmart.com and their affiliates do not endorse or sponsor Azuga\'s services, products, or activities.<br>See www.walmart.com/giftcardtermsandconditions for complete gift card terms and conditions.]]></string>
+    <string name="reward_tc_homedepot"><![CDATA[Home Depot is not a sponsor of the rewards or otherwise affiliated with Azuga, Inc. The logos and other identifying marks attached are trademarks of and owned by each represented company and/or its affiliates.  Please visit each company\'s website for additional terms and conditions.]]></string>
+    <string name="reward_tc_starbucks"><![CDATA[The Starbucks word mark and the Starbucks Logo are trademarks of Starbucks Corporation. Starbucks is also the owner of the Copyrights in the Starbucks Logo and the Starbucks Card designs. All rights reserved. Starbucks is not a participating partner or sponsor in this offer.]]></string>
+    <string name="reward_tc_general"><![CDATA[The merchants represented are not sponsors of the Azuga Driver Rewards or otherwise affiliated with Azuga, Inc. The logos and other identifying marks attached are trademarks of and owned by each represented company and/or its affiliates. Please visit each company\'s website for additional terms and conditions.]]></string>
+    <string name="reward_redeem_help_amazon"><![CDATA[<a href="https://www.amazon.com/gp/css/gc/payment/view-gc-balance?claimCode=">Apply to Account</a><br><br><a href="http://www.amazon.com/gc-redeem">How to Use</a><br><br>To redeem your gift card visit <a href="http://www.amazon.com/redeem">www.amazon.com/redeem</a>.<br>If you have questions about redeeming your gift card, please visit <a href="http://www.amazon.com/gc-redeem">www.amazon.com/gc-redeem</a>.<br><br>If you have questions regarding the Azuga offer, please contact Azuga customer care at <a href="mailto:customercare@azuga.com">customercare@azuga.com</a> or <a href="tel:1-888-790-0715">1-888-790-0715</a>.]]></string>
+    <string name="rewards_redeem_tc_title">General Disclaimer</string>
+    <string name="rewards_redeem_btn_title">Redeem</string>
+    <string name="rewards_redeem_charity_msg">Please confirm your reward selection.</string>
+    <string name="rewards_brand_selection_title">CHOOSE A BRAND</string>
+    <string name="rewards_brand_unavailable_title">No Brands Enabled</string>
+    <string name="rewards_brand_unavailable_msg">There is no brand available for you to redeem at the moment.\nPlease contact Azuga customer care.</string>
+    <string name="rewards_redeem_msg">Redeeming your reward. Please wait.</string>
+    <string name="rewards_redeem_error_title">Error</string>
+    <string name="rewards_redeem_err_msg">There was an error processing your reward. Please try again.\nIf the error persists, please write to Azuga stating your problem briefly.</string>
+    <string name="rewards_redeem_success_msg">Your reward has been redeemed successfully. Press OK to continue.</string>
+
+    <!-- Profile -->
+    <string name="profile_title">Profile</string>
+    <string name="crop_title">Move and Crop</string>
+    <string name="profile_user_title">My Account</string>
+    <string name="profile_user_name_title">Name</string>
+    <string name="profile_user_email_title">ID (Email)</string>
+    <string name="profile_user_old_pwd_title">Old Password</string>
+    <string name="profile_user_new_pwd_title">New Password</string>
+    <string name="profile_user_conf_pwd_title">Re-type</string>
+    <string name="profile_change_pwd_btn">Change Password</string>
+    <string name="profile_change_pwd_btn_send">Send</string>
+    <string name="profile_change_pwd_empty_oldpwd">Please enter your current password.</string>
+    <string name="profile_change_pwd_empty_newpwd">Please enter new password.</string>
+    <string name="profile_change_pwd_empty_confpwd">Please confirm your new password.</string>
+    <string name="profile_change_pwd_wrong_oldpwd">Oh-oh! Incorrect old password. Please check and try again.</string>
+    <string name="profile_change_pwd_mismatch">The new passwords entered do not match. Please check and try again.</string>
+    <string name="profile_change_pwd_same">Current and New password can not be same. Please enter new password.</string>
+    <string name="profile_change_pwd_updating_msg">Updating Your Password</string>
+    <string name="profile_change_pwd_update_success">Password updated successfully.</string>
+    <string name="profile_misc_logout">Log Out</string>
+    <string name="profile_pic_chooser_title">Profile Photo</string>
+    <string name="crop_set_btn">Set</string>
+    <string name="crop_image_load_error">Could not load the image</string>
+    <string name="logout_msg">Do you really want to log out?</string>
+    <string name="logout_progress_msg">Logging out. Please wait&#8230;</string>
+    <string name="profile_misc_eua">EULA</string>
+    <string name="profile_misc_contact_us">Write to Azuga</string>
+
+    <!-- Utilities -->
+    <string name="utilities_title">Utilities</string>
+    <string name="utility_item_title_wzat">Where Did I Park?</string>
+    <string name="utility_item_title_fif">Find It Forward</string>
+    <string name="utility_item_title_engine_monitor">Engine Monitor</string>
+    <string name="utility_item_title_vehicle_health">Vehicle Health</string>
+    <string name="utility_submit_a_lead">Submit a Lead</string>
+    <string name="utility_taxi_io">Taxi Io</string>
+    <string name="utility_item_battery_health">Battery Health</string>
+
+    <!-- Wherezat -->
+    <string name="wherezat_title">Where Did I Park?</string>
+    <string name="wzat_loc_not_avail">Vehicle location is not known or you have not associated with any vehicle.</string>
+    <string name="wzat_address_not_avail">Address could not be determined. Use \'Get directions\' to navigate.</string>
+    <string name="wherezat_share_sub">Azuga Utilities</string>
+    <string name="wherezat_share_text1">Thanks to Azuga\'s Where Did I Park, I always know where is my car.</string>
+    <string name="wherezat_share_text2">http://maps.google.com/?q=</string>
+    <string name="wherezat_share_dialog_msg">You have reached your vehicle\'s location. Happy driving!</string>
+    <string name="wherezat_no_direction_found">No Direction Found</string>
+    <string name="wherezat_vehicle_marker_title">Vehicle Location</string>
+    <string name="loading_text">Loading&#8230;</string>
+    <string name="wzat_direction_tab_title">Directions</string>
+    <string name="wzat_directroute_tab_title">Direct Route</string>
+    <string name="wzat_loc_footer">Get Directions</string>
+    <string name="wzat_loading_vehicle_loc_msg">Getting Last Location. Please wait&#8230;</string>
+    <string name="wzat_direct_route_text">Vehicle is %1$s away.</string>
+    <string name="wzat_additioan_start_step">Move %1$s towards the next point.</string>
+    <string name="wzat_additioan_last_step">Move %1$s towards your vehicle.</string>
+    <string name="wzat_no_routes">No route found from your current location to your vehicle\'s location.</string>
+    <string name="wzat_new_location_title">New Location Available</string>
+    <string name="wzat_new_location_desc">Your vehicle\'s location has been adjusted as per the latest update Offline mode. Cannot determine address.</string>
+
+    <!-- Trips -->
+    <string name="trips_title">Trip Log</string>
+    <string name="trips_empty_data_msg">You have not taken any trips between those dates. Please choose a different date range.</string>
+    <string name="trips_loading_msg">Fetching your trip data. Please wait&#8230;</string>
+    <string name="trips_events_loading_msg">Fetching event details. Please wait&#8230;</string>
+    <string name="trips_events_map_error">This trip cannot be plotted because of poor GPS accuracy during the trip.</string>
+    <string name="trips_events_info_event_time">Event Time</string>
+    <string name="trips_events_info_speed_initial">Initial Speed</string>
+    <string name="trips_events_info_speed_final">Final Speed</string>
+    <string name="trips_events_info_speed_peak">Peak Speed</string>
+    <string name="trips_events_info_duration">Duration</string>
+    <string name="trips_events_info_fuel">Fuel Consumed</string>
+    <string name="trips_events_info_address">Event Address</string>
+    <string name="trips_event_title_ts">Trip Start</string>
+    <string name="trips_event_title_te">Trip End</string>
+    <string name="trips_event_title_braking">Braking Event</string>
+    <string name="trips_event_title_braking_hardcore">Hardcore Braking Event</string>
+    <string name="trips_event_title_speeding">Speeding Event</string>
+    <string name="trips_event_title_hard_accele">Acceleration Event</string>
+    <string name="trips_event_title_idling">Idling Event</string>
+    <string name="trips_list_view_arrive">Arrived at</string>
+    <string name="trips_list_view_depart">Departure at</string>
+    <string name="trips_list_view_distance">Distance</string>
+    <string name="trips_list_view_idle_time">Idle Time</string>
+    <string name="trips_list_view_fuel_consumed">Fuel Consumed</string>
+    <string name="trips_list_view_efficiency">Efficiency</string>
+    <string name="trips_list_view_speed_max">Max Speed</string>
+    <string name="trips_list_view_speed_avg">Avg Speed</string>
+    <string name="trips_start_date">Start Date</string>
+    <string name="trips_end_date">End Date</string>
+
+    <!-- FIF -->
+    <string name="search_hint">Search</string>
+    <string name="fif_contact_number_unavailable">We\'re sorry, we do not have any contact information for %1$s.</string>
+    <string name="fif_share_sub">Azuga Utilities</string>
+    <string name="fif_share_text">I used Azuga\'s Find It Forward to get to \'%1$s\'.</string>
+    <string name="fif_no_result_title">No places found</string>
+    <string name="fif_no_result_increase_radius">Would you like to extend the search to %1$d %2$s radius?</string>
+    <string name="fif_no_result_max_radius">We tried really hard, but there are no places as far as the app can search.</string>
+    <string name="fif_foursquare_link">foursquare</string>
+    <string name="fif_progress_refresh">Refreshing</string>
+    <string name="fif_gps_off">The app needs access to your location to determine where you are. Don\'t worry, battery consumption will be minimum.</string>
+    <string name="fif_empty_list_text">Please select any category from the toolbar on top to find places around you</string>
+    <string name="fif_radius_crossed_title">Crossed radius</string>
+    <string name="fif_radius_crossed_msg">Selected radius of %1$d %2$s crossed. Do you want to continue search?</string>
+    <string name="fif_refreshing_msg">Refreshing. Please wait&#8230;</string>
+    <string name="fif_searching_msg">Searching. Please wait&#8230;</string>
+    <string name="fif_pref_max_poi_limit_crossed">%1$d items already selected. Unselect some item to select another.</string>
+    <!-- FIF Type Names -->
+    <string name="fif_type_atm">Bank/ATM</string>
+    <string name="fif_type_airport">Airport</string>
+    <string name="fif_type_gas">Gas Station</string>
+    <string name="fif_type_food">Food</string>
+    <string name="fif_type_movie">Movie</string>
+    <string name="fif_type_lodging">Lodging</string>
+    <string name="fif_type_emergency">Emergency</string>
+    <string name="fif_type_automobile">Automobile</string>
+    <string name="fif_type_grocery">Groceries</string>
+    <string name="fif_type_internet">Internet Cafe</string>
+    <string name="fif_type_transport">Bus/Metro</string>
+    <string name="fif_type_education">Education</string>
+    <string name="fif_type_parking">Parking</string>
+    <string name="fif_type_monuments">Monument</string>
+    <string name="fif_type_store">Store</string>
+    <!-- FIF Type Keys -->
+    <string name="fif_key_fs_atm">4bf58dd8d48988d10a951735,52f2ab2ebcbc57f1066b8b56</string>
+    <string name="fif_key_fs_airport">4bf58dd8d48988d1ed931735</string>
+    <string name="fif_key_fs_gas">4bf58dd8d48988d113951735</string>
+    <string name="fif_key_fs_food">4d4b7105d754a06374d81259,4d4b7105d754a06376d81259</string>
+    <string name="fif_key_fs_movie">4bf58dd8d48988d17f941735,4bf58dd8d48988d1e5931735</string>
+    <string name="fif_key_fs_lodging">4bf58dd8d48988d1fa931735</string>
+    <string name="fif_key_fs_emergency">4bf58dd8d48988d12c941735,4bf58dd8d48988d12e941735,4bf58dd8d48988d104941735</string>
+    <string name="fif_key_fs_automobile">52f2ab2ebcbc57f1066b8b44,4bf58dd8d48988d124951735,4f04ae1f2fb6e1c99f3db0ba,4eb1c1623b7b52c0e1adc2ec</string>
+    <string name="fif_key_fs_grocery">4bf58dd8d48988d1f9941735</string>
+    <string name="fif_key_fs_internet">4bf58dd8d48988d1f0941735</string>
+    <string name="fif_key_fs_transport">4bf58dd8d48988d1fe931735,52f2ab2ebcbc57f1066b8b4f,4bf58dd8d48988d129951735,4bf58dd8d48988d1fd931735</string>
+    <string name="fif_key_fs_education">4bf58dd8d48988d198941735,4bf58dd8d48988d1a2941735,4bf58dd8d48988d1a8941735,4bf58dd8d48988d1a6941735,4bf58dd8d48988d1ae941735</string>
+    <string name="fif_key_fs_parking">4c38df4de52ce0d596b336e1</string>
+    <string name="fif_key_fs_monuments">4bf58dd8d48988d12d941735</string>
+    <string name="fif_key_fs_store">52f2ab2ebcbc57f1066b8b2b,52f2ab2ebcbc57f1066b8b29,4bf58dd8d48988d112951735,545419b1498ea6ccd0202f58</string>
+
+    <!-- EULA -->
+    <string name="eula_title">EULA</string>
+    <string name="eula_btn_accept">Accept</string>
+    <string name="eula_btn_reject">Decline</string>
+    <string name="eula_accepted_text">You have already accepted the EULA at %1$s</string>
+    <string name="eula_loading">Loading EULA content</string>
+
+    <!-- COMPARE -->
+    <string name="compare.title">Leaderboard</string>
+    <string name="compare.name">NAME</string>
+    <string name="compare_loading_data">Fetching more&#8230;</string>
+    <string name="compare_loading_error">Error while fetching data. Tap to retry.</string>
+    <string name="compare_users_group">Others in the Group</string>
+    <string name="compare_users_company">Others in the Company</string>
+    <string name="compare_rank">Rank</string>
+    <string name="compare_score">Score</string>
+
+    <!-- Contact Us -->
+    <string name="contact_us_title">Write to Azuga</string>
+    <string name="contact_us_topic_title">Subject</string>
+    <string name="contact_us_comments_title">Comments</string>
+    <string name="contact_us_err_empty_comment">Comments can not be empty please type your feedback.</string>
+    <string name="contact_us_wait_msg">Submitting your feedback. Please wait.</string>
+    <string name="contact_us_feedback_submitted_title">Feedback submitted</string>
+    <string name="contact_us_feedback_submitted_msg">Thanks for writing to Azuga. We will get in touch with you soon.</string>
+    <string name="contact_us_type_pairing">Pairing issue</string>
+    <string name="contact_us_type_rewards">Rewards enquiry</string>
+    <string name="contact_us_type_score">Score enquiry</string>
+    <string name="contact_us_type_device">Device issue</string>
+    <string name="contact_us_type_app">App issue</string>
+    <string name="contact_us_type_roadside">Roadside Assistance enquiry</string>
+    <string name="contact_us_type_feedback">Feedback / Complaints</string>
+
+    <!-- Driver ID -->
+    <string name="driver_id_bluetooth">Bluetooth</string>
+    <string name="driver_id_btn_retry">Retry</string>
+    <string name="driver_id_btn_help">Need Help?</string>
+    <string name="driver_id_btn_override">Choose Manually?</string>
+    <string name="driver_id_bt_off_title">Bluetooth must always be ON to communicate with your vehicle.</string>
+    <string name="driver_id_bt_off_subtitle">Don\'t worry, this will have minimum impact on battery.</string>
+    <string name="driver_id_bt_turning_on_title">Firing up Bluetooth on your mobile! Hold on&#8230;</string>
+    <string name="driver_id_scan_title">Searching for nearby vehicles.</string>
+    <string name="driver_id_scan_subtitle">Please ensure your vehicle\'s engine is running.</string>
+    <string name="driver_id_device_found_title">Vehicle found.</string>
+    <string name="driver_id_device_found_subtitle">Please wait while we connect to the vehicle.</string>
+    <string name="driver_id_device_not_found_title">Bummer! No vehicles were found using Bluetooth pairing.</string>
+    <string name="driver_id_device_not_found_subtitle">Please ensure your vehicle\'s engine is running.</string>
+    <string name="driver_id_connected_title">You are now associated with your vehicle.</string>
+    <string name="driver_id_error_title">Bummer! We encountered an issue.</string>
+    <string name="driver_id_error_type_scan">We encounterd a error while scanning for vehicles nearby.</string>
+    <string name="driver_id_error_type_auth">Authentication failed.</string>
+    <string name="driver_id_error_type_connection">We could not establish a bluetooth connection.</string>
+    <string name="driver_id_error_type_disconnect">You are no longer associated with your vehicle.</string>
+    <string name="driver_id_notify_title">Occupant Recognition Alert</string>
+    <string name="driver_id_notify_pair">You are now automatically paired with the vehicle.</string>
+    <string name="driver_id_notify_unpair">You are no longer paired with the vehicle.</string>
+    <string name="drive_id_notify_error">Due to an error, we could not pair you with the vehicle. Please open the app and try again.</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_app_details_title">App Details</string>
+    <string name="version_history">What\'s New</string>
+    <string name="settings_data_usage_title">Data Usage</string>
+    <string name="settings_data_received_title">Data Received</string>
+    <string name="settings_data_sent_title">Data Sent</string>
+    <string name="settings_score_prefs_title">Score Preference</string>
+    <string name="settings_compae_type_title">Compare myself with</string>
+    <string name="settings_compae_type_desc">Comparing with company will increase your data usage.</string>
+    <string name="settings_others_title">Date Time Preference</string>
+    <string name="settings_app_version">Version %1s</string>
+    <string name="settings_score_prefs_avg_period_title">Average Score Period</string>
+    <string name="settings_score_prefs_avg_period_desc">Set time period for comparing average driver scores and rankings</string>
+    <string name="settings_date_format_title">Date Format</string>
+    <string name="settings_time_format_title">Use 24-hour format</string>
+    <string name="settings_trips_title">Trip Preference</string>
+    <string name="settings_trip_details_title">Trip Details</string>
+    <string name="settings_trips_combine_title">Combine Trips</string>
+    <string name="settings_trips_combine_desc">Join trips with stop time less than 10 minutes.</string>
+    <string name="settings_trip_details_desc">Choose any 3 details you would like to see with your trips.</string>
+    <string name="settings_map_title">Map Preference</string>
+    <string name="settings_map_type_title">Show satellite view</string>
+    <string name="settings_map_type_desc">Show maps using satellite photograph data.</string>
+    <string name="settings_map_theme_title">Set Map Theme Automatically</string>
+    <string name="settings_map_theme_desc">Enable this to choose the map theme based on the time of day when you use the app. A dark theme will be applied during low light conditions.</string>
+    <string name="settings_map_theme_choose">Choose Map Theme</string>
+    <string name="settings_fif_title">Find It Forward Preference</string>
+    <string name="settings_fif_search_radius_title">Search Radius (%1$s)</string>
+    <string name="settings_fif_search_radius_desc">The radius to search for places around you.</string>
+    <string name="settings_fif_quick_select_title">Places of Interest</string>
+    <string name="settings_fif_quick_select_desc">Choose at least 2 and at most 6 places of interest to be searched from the toolbar.</string>
+    <string name="settings_fif_qs_popup_title">Choose Your Favorite POI</string>
+    <string name="settings_fif_qs_popup_err">Choose at least 2 and at most 6 places of interest to be search from the toolbar.</string>
+    <string name="weekly">Weekly</string>
+    <string name="monthly">Monthly</string>
+    <string name="quarterly">Quarterly</string>
+    <string name="map_settings_desc">Please select one theme from the list below and see a preview of New York above.</string>
+    <string name="map_theme_standard">Standard</string>
+    <string name="map_theme_silver">Silver</string>
+    <string name="map_theme_retro">Retro</string>
+    <string name="map_theme_dark">Dark</string>
+    <string name="map_theme_night">Night</string>
+    <string name="map_theme_aubergine">Aubergine</string>
+
+    <string-array name="date_format_options">
+        <item>dd-MMM-yyyy</item>
+        <item>dd/MM/yyyy</item>
+        <item>MM/dd/yyyy</item>
+        <item>MMM, dd</item>
+    </string-array>
+    <string-array name="settings_compare_type_options">
+        <item>Group</item>
+        <item>Company</item>
+    </string-array>
+
+    <!-- LayerChat -->
+    <string name="chat_title">Messages</string>
+    <string name="chat_messages_tab">Messages</string>
+    <string name="chat_contacts_tab">Contacts</string>
+    <string name="chat_location">Location</string>
+    <string name="chat_dialog_delete_conversation_title">Delete Conversation</string>
+    <string name="chat_dialog_delete_conversation_message">Are you sure you want to delete the conversation with %1$s?</string>
+    <string name="chat_contacts_empty_msg">Unfortunately, there are no contacts you can start a conversation with. Please reach out to your manager to get this going.</string>
+    <string name="chat_contacts_loading_msg">Loading Contacts. Please wait.</string>
+    <string name="chat_chatting_with_label">Chatting With</string>
+    <string name="chat_loading_msg">Loading messages. Please wait.</string>
+    <string name="chat_wait_for_registration_msg">Setting up your chat account. Please wait</string>
+    <string name="chat_no_network_msg">No Internet connection. Please check and try again.</string>
+    <string name="chat_new_chat">New Chat</string>
+    <string name="chat_new_grp_chat">New Group</string>
+    <string name="chat_empty_contact_err_title">Contact List Empty</string>
+    <string name="chat_empty_contact_err_msg">We are fetching the list of your contacts. Please try again in some time.</string>
+    <string name="chat_group_mem_alert_title">Minimum Limit</string>
+    <string name="chat_group_mem_alert">You need to choose at least 2 participant to start a group chat</string>
+    <string name="chat_group_mem_alert_add">Atleast 1 participant should be selected</string>
+    <string name="chat_attach_camera">Camera</string>
+    <string name="chat_attach_gallery">Attachment</string>
+    <string name="chat_null_loc_error">Inserting Location: Location is unknown yet</string>
+    <string name="chat_delete_message">Delete message</string>
+    <string name="chat_delete_confirmation">Are you sure you want to delete message?</string>
+    <string name="chat_group_create">Create Group</string>
+    <string name="chat_group_name_label">Please enter the name for this group and tap on the button below to start the conversation</string>
+    <string name="chat_group_name_hint">Enter group name</string>
+    <string name="chat_peer_disabled_msg">Chatting among drivers is disabled by your admin</string>
+    <string name="chat_peer_disabled_title">Peer Chat Disabled</string>
+    <string name="chat_conv_deleted_title">Conversation Deleted</string>
+    <string name="chat_conv_deleted_text">This conversation got deleted from the server</string>
+    <string name="chat_messages_empty">You do not have any conversations. Tap on the button below to get started.</string>
+    <string name="add">Add</string>
+    <string name="close">Close</string>
+    <string name="added">added</string>
+    <string name="created">created</string>
+    <string name="group_with">group with</string>
+    <string name="chat_add_participant_failed_title">Add Participant Failed</string>
+    <string name="chat_sharing_recent_chat_label">Recent Chats</string>
+    <string name="chat_sharing_contact_label">Contacts</string>
+    <string name="chat_attach_trackme">TrackMe</string>
+    <string name="chat_attach_trackme_prompt_msg"><![CDATA[It appears that you already have a TrackMe request which is valid until %1$s. Do you want to use the existing request or create a new one?<br><br>Note: Creating a new link will invalidate the previous link.]]></string>
+    <string name="chat_attach_trackme_prompt_existing">Use Existing</string>
+    <string name="chat_attach_trackme_prompt_new">Create New</string>
+    <string name="chat_msg_option_forward">Forward</string>
+    <string name="chat_msg_option_delete">Delete</string>
+    <string name="chat_msg_option_copy">Copy</string>
+    <string name="chat_msg_option_save">Save</string>
+    <string name="chat_msg_save_progress">Saving to phone. Please wait.</string>
+    <string name="chat_msg_save_failed">Saving to phone storaged failed. Please try again.</string>
+    <string name="chat_send_to">Send To</string>
+    <string name="chat_add_participant_title">Participants</string>
+
+    <!-- PAIRING HISTORY -->
+    <string name="pairing_history_title">PAIRING HISTORY</string>
+    <string name="pairing_distance_travelled_title">Distance Travelled</string>
+    <string name="paired_drive_time_title">Drive Time</string>
+    <string name="pairing_start_at">Start at</string>
+    <string name="pairing_end_at">End at</string>
+    <string name="pairing_history_loading_message">Loading pairing history. Please wait.</string>
+    <string name="pairing_history_empty_msg">No Pairing Associations Found</string>
+    <string name="active_pairing">Active</string>
+
+    <!-- Work-->
+    <string name="work_title">Work</string>
+
+    <!-- TIMECARD-->
+    <string name="timecard_title">Timecard</string>
+    <string name="timecard_detail_running_time">WORK</string>
+    <string name="timecard_detail_break_time">BREAK</string>
+    <string name="timecard_action_shift_start">START SHIFT</string>
+    <string name="timecard_action_break_start">TAKE BREAK</string>
+    <string name="timecard_action_break_end">RESUME SHIFT</string>
+    <string name="timecard_action_shift_end">END SHIFT</string>
+    <string name="timecard_submit">Submit</string>
+    <string name="timecard_shift_comment_help">Add a note (Optional)</string>
+    <string name="timecard_history_title">Activity Log</string>
+    <string name="timecard_forced_logout">Forced Shift End due to logout</string>
+    <string name="timecard_forced_end_remove">Forced Shift End as feature is removed.</string>
+    <string name="timecard_feature_disable_msg">Feature has been disabled. Please contact your administrator.</string>
+    <string name="timecard_time_format">%1$02d:%2$02d:%3$02d</string>
+    <string name="timecard_additional_question">Were you injured during this shift?</string>
+
+    <!-- Time Error Popup -->
+    <string name="sync_time_issue_title">Fatal Error!</string>
+    <string name="sync_time_issue_msg">Phone time is out of sync. Please fix by enabling auto time update in phone settings.</string>
+    <string name="sync_time_issue_btn">Fix Now</string>
+
+    <!--Version History-->
+    <string name="dot">&#8226;</string>
+    <string name="ver2.1">version 2.1</string>
+    <string name="ver2.1_date">December, 2017</string>
+    <string name="ver2.1_1">Now get roadside assistance from Signature Motor Club powered by Allstate. Stay safe and productive!</string>
+    <string name="ver2.1_2">Minor improvements and bug fixes</string>
+    <string name="ver2.0">version 2.0</string>
+    <string name="ver2.0_date">September, 2017</string>
+    <string name="ver2.0_1">Live Status feature available for Fleet Managers. Live Status provides the latest LIVE snapshot of a fleet.</string>
+    <string name="ver2.0_2">Utility to diagnose engine health and trouble codes. Connect with Bluetooth to check your vehicle\'s health!</string>
+    <string name="ver2.0_3">Utility to determine the health and performance of your vehicle\'s battery</string>
+    <string name="ver2.0_4">Fresh look to the Installation utility with added support for OBD-II devices</string>
+    <string name="ver2.0_5">Login using a 4-digit PIN or using your employee ID (needs setup on the web application)</string>
+    <string name="ver2.0_6">Starbucks Gift Card added to the Azuga Rewards stack</string>
+    <string name="ver2.0_7">Trips recorded via Taxi-IO are now reported to the Azuga web application for fleet managers to report</string>
+    <string name="ver2.0_8">Logs and database are now encrypted</string>
+    <string name="ver1.9.4v">version 1.9.4</string>
+    <string name="ver1.9.4_date">April, 2017</string>
+    <string name="ver1.9.4_1">Realtime location tracking through bluetooth connection</string>
+    <string name="ver1.9.4_2">Use Taxi-IO to log trips based on a manual input of trip start and trip stop. Similar to a taxi meter.</string>
+    <string name="ver1.9.4_3">Added an inspection survey at the end of each shift</string>
+    <string name="ver1.9.4_4">Location service usage reduced to improve battery life</string>
+    <string name="ver1.9.3v">version 1.9.3</string>
+    <string name="ver1.9.3_date">March, 2017</string>
+    <string name="ver1.9.3_1">View the exact route under Trip Logs using bluetooth and location intelligence</string>
+    <string name="ver1.9.3_2">Add-on utility for drivers to make money by helping Azuga generate fresh leads</string>
+    <string name="ver1.9.3_3">Create a TrackMe link using the quick action shortcut from Messaging</string>
+    <string name="ver1.9.3_4">Easily forward messages to other users</string>
+    <string name="ver1.9.3_5">Design improvements and bug fixes</string>
+    <string name="ver1.9">version 1.9</string>
+    <string name="ver1.9_date">February, 2017</string>
+    <string name="ver1.9_1">Share your location with friends and co-workers using TrackMe</string>
+    <string name="ver1.9_2">Now send files and documents as attachments while chatting with other users</string>
+    <string name="ver1.9_3">Find a collection of useful apps handpicked exclusively for you under Featured App Gallery</string>
+    <string name="ver1.9_4">Set up and install asset trackers easily using the installation module</string>
+    <string name="ver1.9_5">More refined permission handling for Android M</string>
+    <string name="ver1.8">version 1.8</string>
+    <string name="ver1.8_date">November, 2016</string>
+    <string name="ver1.8_1">Add and manage participants within a team conversation.</string>
+    <string name="ver1.8_2">New designs and a fresh experience on vehicle pairing.</string>
+    <string name="ver1.8_3">Smart, automatic pairing triggers within the app.</string>
+    <string name="ver1.8_4">Customize the look and feel of your maps from the app\'s settings.</string>
+    <string name="ver1.8_5">Thumbnail previews for message attachments.</string>
+    <string name="ver1.8_6">Responsive Dashboard for easy access of features.</string>
+    <string name="ver1.8_7">Fixed a bug where the app would pair even when the vehicle is stationary.</string>
+    <string name="ver1.7">version 1.7</string>
+    <string name="ver1.7_date">September, 2016</string>
+    <string name="ver1.7_1">Cool, exciting design for Azuga Rewards and Gift Cards.</string>
+    <string name="ver1.7_2">Start group conversations with your team for real time collaboration.</string>
+    <string name="ver1.7_3">Significant improvements to messaging and conversations.</string>
+    <string name="ver1.7_4">Flexibility to work on carrier free Danlaw OBD-II devices.</string>
+    <string name="ver1.7_5">New additions to the Dashboard with faster access to FAQ section.</string>
+    <string name="ver1.7_6">Add-on utility for asset tracker installations</string>
+    <string name="ver1.7_7">No more of those pesky pair notification reminders!</string>
+    <string name="ver1.6">version 1.6</string>
+    <string name="ver1.6_date">May, 2016</string>
+    <string name="ver1.6_1">Use Azuga\'s DriveSafe to block distractions and encourage safe driving.</string>
+    <string name="ver1.6_2">Background services to maintain bluetooth pairing and efficient monitoring.</string>
+    <string name="ver1.6_3">Real time data capture using Google Forms and Custom Reporting.</string>
+    <string name="ver1.6_4">Set Operating Hours and specify custom rules to control app behavior.</string>
+    <string name="ver1.6_5">Localized notifications based on region.</string>
+    <string name="ver1.6_6">Analyse your best and worst scores through our interactive charts and graphs.</string>
+    <string name="ver1.6_7">Loads of UI improvements to make the app look even more crisp!</string>
+    <string name="ver1.5">version 1.5</string>
+    <string name="ver1.5_date">February, 2016</string>
+    <string name="ver1.5_1">Advanced remote debugging options for Azuga Support.</string>
+    <string name="ver1.5_2">Added time offset to eliminate the nasty time bug.</string>
+    <string name="ver1.5_3">Better user on-boarding through a simple wizard.</string>
+    <string name="ver1.5_4">Scores are color coded based on safety indicators.</string>
+    <string name="ver1.5_5">Provide app ratings from within the app.</string>
+    <string name="ver1.4">version 1.4</string>
+    <string name="ver1.4_date">December, 2015</string>
+    <string name="ver1.4_1">Log your shifts and breaks using Timecards.</string>
+    <string name="ver1.4_2">Classify trips as Business or Personal for expense reporting.</string>
+    <string name="ver1.4_3">Real time video capture for risky events.</string>
+    <string name="ver1.4_4">Spanish support.</string>
+    <string name="ver1.4_5">View vehicle association history.</string>
+    <string name="ver1.3">version 1.3</string>
+    <string name="ver1.3_date">November, 2015</string>
+    <string name="ver1.3_1">Combine trips with smaller stops.</string>
+    <string name="ver1.3_2">Redeem your rewards with Jiffy Lube and Darden\'s.</string>
+    <string name="ver1.3_3">Enterprise flexibility within the application.</string>
+    <string name="ver1.3_4">Get alerts when your vehicle needs a health check.</string>
+    <string name="ver1.2">version 1.2</string>
+    <string name="ver1.2_date">September, 2015</string>
+    <string name="ver1.2_1">Monitor Distracted Driving on the application.</string>
+    <string name="ver1.2_2">Chat with other users through our Messaging feature.</string>
+    <string name="ver1.2_3">Improved design to view trip history.</string>
+    <string name="ver1.2_4">Check your safety rank in Leaderboard.</string>
+    <string name="ver1.2_5">Get alerts when your vehicle is running low on fuel.</string>
+    <string name="ver1.1">version 1.1</string>
+    <string name="ver1.1_date">August, 2015</string>
+    <string name="ver1.1_1">Occupant Recognition via Bluetooth pairing.</string>
+    <string name="ver1.1_2">New score for idling and acceleration.</string>
+    <string name="ver1.1_3">Knowledge Base added to the application.</string>
+    <string name="ver1.1_4">Control the app from Settings on the Dashboard.</string>
+    <string name="ver1.1_5">Upload profile pictures and get social!</string>
+    <string name="ver1.0">version 1.0</string>
+    <string name="ver1.0_date">February, 2015</string>
+    <string name="ver1.0_1">Initial beta release.</string>
+    <string name="ver1.0_2">Complete design overhaul.</string>
+    <string name="ver1.0_3">Receive rewards on the application.</string>
+    <string name="ver1.0_4">View safety scores and compare against your fleet.</string>
+
+    <!-- Developer options -->
+    <string name="dev_secret_pin_title">Azuga Secret Code</string>
+    <string name="dev_secret_pin_cancel">Dismiss</string>
+    <string name="dev_secret_pin_submit">Unlock</string>
+    <string name="dev_secret_pin_hint">Enter Secret Code</string>
+    <string name="dev_option_title">Debug Options</string>
+    <string name="dev_option_send_db">Send Debug Data</string>
+    <string name="dev_option_send_mopho_trip_data">Send Trip Data</string>
+    <string name="dev_option_send_log">Send Logs</string>
+    <string name="dev_option_set_log_level">Set Log Level</string>
+    <string name="dev_option_send_sensor_data">Send Sensor Data</string>
+
+    <!--App Rater -->
+    <string name="rate_app_btn_label">Rate Application</string>
+    <string name="rate_dialog_title">Rate Azuga FleetMobile?</string>
+    <string name="rate_dialog_msg">If you enjoy using the Azuga FleetMobile app, would you mind taking a moment to rate it? It won\'t take more than a minute. Thank you for your support!</string>
+    <string name="rate_dialog_ok">Rate Now</string>
+    <string name="rate_dialog_cancel">Remind me later</string>
+
+    <!--On-Boarding-->
+    <string name="play_service_required_msg">Azuga FleetMobile required Google Play Service to work properly.</string>
+    <string name="initial_setup_title">ONBOARDING</string>
+    <string name="initial_setup_permissions">Setting up the app</string>
+    <string name="initial_setup_doze">Background mode check</string>
+    <string name="initial_setup_profile">Fetching user configuration</string>
+    <string name="initial_setup_pic">Finding your profile picture</string>
+    <string name="initial_setup_score">Fetching scores for the last week</string>
+    <string name="initial_setup_reward">Checking for any rewards</string>
+    <string name="initial_setup_contacts">Finding people to send messages</string>
+    <string name="initial_setup_cb_permission">Checking for DriveSafe permissions</string>
+    <string name="initial_setup_done_msg">Thank you for your patience</string>
+    <string name="initial_setup_cb_title">DriveSafe Permissions</string>
+    <string name="initial_setup_cb_msg">Please grant access to Azuga FleetMobile on the next screen for the app to work smoothly.</string>
+    <string name="initial_setup_group">Fetching Group Details</string>
+
+    <!-- Score Trends-->
+    <string name="score_trends_title">Trends</string>
+    <string name="score_trends_prev">Prev</string>
+    <string name="score_trends_next">Next</string>
+    <string name="score_trends_bar_desc">Driver Score</string>
+    <string name="score_trends_events_empty_day">There were no risky events observed on your trips for %1$s.</string>
+    <string name="score_trends_events_empty_day_range">There were no risky events observed on your trips between %1$s and %2$s.</string>
+
+    <!-- Notification Locale -->
+    <string name="pt_reward">%1$s%2$s Azuga Reward</string>
+    <string name="pm_reward">Congrats! You have a new reward from %1$s. Claim it now!</string>
+    <string name="pt_score">Azuga Score</string>
+    <string name="pm_score">Your latest driver score is %1$s. Tap to know more.</string>
+    <string name="pt_pair_override">Azuga Pairing Alert</string>
+    <string name="pm_pair_override">You are now paired with %1$s</string>
+    <string name="pt_unpair">Azuga Pairing Alert</string>
+    <string name="pm_unpair">You are no longer paired with %1$s.</string>
+    <string name="pt_bt_pair">Azuga Pairing Alert</string>
+    <string name="pm_bt_pair">If you are driving, you need to be paired with the vehicle. Tap to pair.</string>
+    <string name="pt_logout">Logged out of app</string>
+    <string name="pm_logout_multiple">Due to multiple login attempt</string>
+    <string name="pm_logout_forced">Session cleared by fleet manager or Azuga Support.</string>
+    <string name="pt_check_engine">Vehicle in distress</string>
+    <string name="pm_check_engine">Your vehicle needs a visit to the nearest mechanic. Find one now?</string>
+    <string name="pt_low_fuel">Azuga Low Fuel Alert</string>
+    <string name="pm_low_fuel">Your fuel level is %1$s%%</string>
+    <string name="pt_broadcast">%1$s</string>
+    <string name="pm_broadcast">%1$s</string>
+
+    <!-- Cell Block -->
+    <string name="cb_title">DriveSafe</string>
+    <string name="cb_general_msg">Azuga DriveSafe helps you prevent distractions and phone usage while you drive!</string>
+    <string name="cb_permission_btn">Fix permission to use allowed apps</string>
+    <string name="cb_permission_btn_unsupported">Your Phone doesn\'t support permission required to allow you to use WhiteListed apps.</string>
+    <string name="cb_notification_msg">Azuga DriveSafe is active.</string>
+    <string name="cb_alert_permission_title">DriveSafe Permissions</string>
+    <string name="cb_alert_permission_msg">To make sure you have access to allowed applications and numbers, you need to grant access to Azuga FleetMobile by following these steps:\n\n1. Click on Allow\n2. Pull over to the side\n3. Grant access and your all set.\n</string>
+    <string name="cb_miss_call_msg">You have %1$d calls that were blocked as part of Azuga DriveSafe. Please check your call logs for more details.</string>
+
+    <!-- Forms-->
+    <string name="forms_title">Forms</string>
+    <string name="forms_empty_msg">No forms available.\nPlease contact Azuga customer care.</string>
+    <string name="forms_loading_msg">Loading forms. Please wait.</string>
+    <string name="form_submit_alert_title">Azuga Form Submitted</string>
+    <string name="form_submit_alert_msg">Your responses have been recorded.</string>
+
+    <!-- Installation Choices -->
+    <string name="installation_obd_title">OBD-II Plug ’n’ Play</string>
+    <string name="installation_obd_msg">The Azuga OBB-II device gets installed onto cars manufactured after 2006. Installation is as simple as plugging it into the OBD-II port and that’s it. Tap to install this device.</string>
+    <string name="installation_asset_battery_title">Long Life Asset Tracker</string>
+    <string name="installation_asset_battery_msg">The Azuga Asset Tracker can be used to determine whereabouts of your important assets. This device is capable of transmitting data even without an external power source. Tap to install this device.</string>
+    <string name="installation_asset_powered_title">Rechargeable Asset Tracker</string>
+    <string name="installation_asset_powered_msg">The rechargeable asset tracker comes with a weatherproof and ruggedised enclosure for use in severe weather conditions. This device requires a hard-wire installation with the asset to be tracked. Tap to install this device.</string>
+
+    <!-- Self Install utility -->
+    <string name="installation_title">Installation</string>
+    <string name="self_install_title">Asset Installation</string>
+    <string name="self_install_scan">scan</string>
+    <string name="self_install_serial_title">Device Serial Number</string>
+    <string name="self_install_serial_hint">Enter Serial Number</string>
+    <string name="self_install_asset_title">Asset ID</string>
+    <string name="self_install_asset_hint">Enter Asset ID</string>
+    <string name="self_install_comment_hint">Installation comments, if any</string>
+    <string name="self_install_btn_submit">Submit</string>
+    <string name="self_install_scan_hint">Focus the %1$s barcode inside the viewfinder for scanning.</string>
+    <string name="self_install_scan_err_title">Error</string>
+    <string name="self_install_scan_err_msg">Error occurred during scan. Please try again.</string>
+    <string name="self_install_serial_num_numeric_err">Device Serial Number should be numeric.</string>
+    <string name="self_install_asset_length_err_msg">Asset Id can not be more than 20 characters.</string>
+    <string name="self_install_scan_msg"><![CDATA[Please confirm if the %1$s <b>%2$s</b> is correct?]]></string>
+    <string name="self_install_submit_cnfm_title">Confirmation</string>
+    <string name="self_install_submit_cnfm_msg">Are you sure you want to submit?</string>
+    <string name="self_install_submitted_msg">Submitted successfully to server.</string>
+    <string name="self_install_mandatory_field_err">%1$s is mandatory field.</string>
+    <string name="self_install_serial_num">Serial Number</string>
+    <string name="self_install_asset_id">Asset ID</string>
+    <string name="self_install_serial_num_help">This is the serial number found on the label printed on the Asset Tracker Device. You could also scan the barcode that is on the label.</string>
+    <string name="self_install_asset_id_help">This is the unique number identifying the asset being tracked. Usually, there will be a label that has this information along with a code you can scan.</string>
+
+    <!-- OBD Installation-->
+    <string name="obd_installation_title">Installation</string>
+    <string name="obd_installation_serial_hint">Enter Serial Number</string>
+    <string name="obd_installation_scan_hint">Focus the barcode inside the viewfinder for scanning.</string>
+    <string name="obd_installation_serial_help">WHERE TO SCAN?</string>
+    <string name="obd_installation_serial_help_msg">Please scan Serial Number barcode on your device.</string>
+    <string name="obd_installation_serial_length_err">Serial Number should be 10 digit.</string>
+    <string name="obd_installation_serial_num_empty">Serial Number is mandatory please enter or scan the Serial Number.</string>
+    <!-- OBD Installation Device Plugin Page-->
+    <string name="obd_installation_plugin_header">Step 1: Plug the device in</string>
+    <string name="obd_installation_plugin_msg">Plug the device into the OBD2 port in your vehicle.</string>
+    <string name="obd_installation_plugin_help">(This port is under your driver\'s side dashboard or on the side of the foot well. It may be in a compartment which would require opening or removing the compartment door.)</string>
+    <string name="obd_installation_plugin_skip_btn">Setup without vehicle</string>
+    <string name="obd_installation_plugin_video_title">CAN\'T FIND A PORT?</string>
+    <string name="obd_installation_plugin_video_msg">Watch this installation video</string>
+    <!-- OBD Installation Device Ignition Page-->
+    <string name="obd_installation_ignition_header">Step 2: Turn on the vehicle ignition</string>
+    <string name="obd_installation_ignition_msg">Turn the vehicle on and let it run for 60 seconds.</string>
+    <!-- OBD Installation Pair Page-->
+    <string name="obd_installation_pair_err_title">This is taking longer than expected.</string>
+    <string name="obd_installation_pair_err_msg_1">Please try these steps.</string>
+    <string name="obd_installation_pair_err_msg_2">1) Make sure device is plugged in firmly and lights up when ignition is turned on.</string>
+    <string name="obd_installation_pair_err_msg_3">2) Please double check that the vehicle you are installing the device in is already on your account.</string>
+    <string name="obd_installation_pair_err_btn">START OVER</string>
+    <string name="obd_installation_pair_success">Connection Established!</string>
+    <string name="obd_installation_pair_pairing_disabled">Bluetooth pairing feature has been removed for your login. Please fill the required vehicle details manually in next screen.</string>
+    <!-- OBD Installation Vehicle Details Page-->
+    <string name="obd_installation_details_header">VEHICLE DETAIL</string>
+    <string name="obd_installation_details_serial">Serial #</string>
+    <string name="obd_installation_details_vin">VIN</string>
+    <string name="obd_installation_details_odo">Odometer</string>
+    <string name="obd_installation_details_unit">Unit</string>
+    <string name="obd_installation_details_license">License Plate #</string>
+    <string name="obd_installation_details_fuel">Fuel Type</string>
+    <string name="obd_installation_details_fuel_petrol">Petrol/Gasoline</string>
+    <string name="obd_installation_details_fuel_diesel">Diesel</string>
+    <string name="obd_installation_details_fuel_propane">Propane</string>
+    <string name="obd_installation_details_fuel_hybrid">Hybrid</string>
+    <string name="obd_installation_details_fuel_lpg">LPG</string>
+    <string name="obd_installation_details_fuel_cng">CNG</string>
+    <string name="obd_installation_details_fuel_lng">LNG</string>
+    <string name="obd_installation_details_fuel_electric">Electric</string>
+    <string name="obd_installation_details_fuel_others">Other</string>
+    <string name="obd_installation_invalid_vin">Invalid VIN. Please enter alphanumeric characters only. The allowable length is between 17&#8211;20 characters.</string>
+    <string name="obd_installation_invalid_license">License plate number should not have any special characters except -, _, and space. The allowable length is between 3&#8211;20 characters.</string>
+    <string name="obd_installation_update_progress">Updating vehicle details. Please wait.</string>
+    <string name="obd_installation_btn_dashboard">Done</string>
+    <string name="obd_installation_btn_add_another">Add more</string>
+    <string name="obd_installation_success_title">Congrats!</string>
+    <string name="obd_installation_success_msg">You are ready to start using Azuga Fleet Mobile! Drive Safely – Every Mile Matters.</string>
+    <string name="obd_installation_fail_msg">Error while updating vehicle details. Please make sure you have entered correct Serial Number.</string>
+
+    <!-- Pairing Dashboard -->
+    <string name="pairing_dashboard_title">Pairing</string>
+    <string name="pd_connected">Connected</string>
+    <string name="pd_disconnected">Not Connected</string>
+    <string name="pd_pair_now">PAIR WITH VEHICLE</string>
+    <string name="pd_passthrough_title">PASSTHROUGH SYNC</string>
+    <string name="pd_passthrough_data_received">Data Received</string>
+    <string name="pd_passthrough_data_sent">Data Sent</string>
+    <string name="pd_previous_associations">VIEW PREVIOUS PAIRING</string>
+    <string name="pd_pair_help">HOW TO PAIR?</string>
+    <string name="pd_obd_title">DEVICE INFO</string>
+    <string name="pd_obd_fw">Firmware</string>
+    <string name="pd_obd_config">Configuration</string>
+    <string name="pd_obd_voltage">%1$.2fV</string>
+
+    <!-- Permission Changes -->
+    <string name="permission_ds_notification_msg">Azuga FleetMobile requires some permission to work smoothly. If denied app won\'t work as expected.</string>
+    <string name="permission_blocked_general"><![CDATA[App requires all permission to work smoothly. You have denied permissions to the app with \'Never ask again\' checked.<br/><br/>App can\'t request this permission from within the app and this has to be granted from the phone settings. App will launch the Phone Settings, please navigate to Permissions section and grant all permission.<br/><br/>Press OK to continue.]]></string>
+    <string name="permission_camera_explain">App requires Camera permission to complete this operation.</string>
+    <string name="permission_camera_blocked">App requires Camera permission to complete this operation. Please enable Camera permission from phone settings.</string>
+    <string name="permission_storage_explain">App requires permission to access File system to complete this operation.</string>
+    <string name="permission_storage_blocked">App requires permission to access File system to complete this operation. Please enable Storage permission from phone settings.</string>
+    <string name="permission_sms_explain">Azuga FleetMobile requires some permission to work smoothly. If denied app won\'t work as expetced.</string>
+    <string name="permission_gps_explain">App requires Location permission to complete this operation.</string>
+    <string name="permission_gps_blocked">App requires Location permission to complete this operation. Please enable Location permission from phone settings.</string>
+
+    <!-- Fix Permission Screen -->
+    <string name="permission_screen_title">Permission Settings</string>
+    <string name="permission_screen_desc">Azuga FleetMobile requires some permission to work smoothly. If denied app won\'t work as expected. Please review the issue below and if any click on Fix button to grant the permission.</string>
+    <string name="permission_screen_already_granted">Permission is already granted.</string>
+    <string name="permission_screen_denied_title">Permission Denied</string>
+    <string name="permission_screen_denied_desc"><![CDATA[App requires all permission to work smoothly. You have denied this permission to the app with \'Never ask again\' checked.<br/><br/>App can\'t request this permission from within the app and this has to be granted from the phone settings. App will launch the Phone Settings, please navigate to Permissions section and grant all permission.<br/><br/>Press OK to continue.]]></string>
+    <string name="permission_screen_modified_title">Permission Modified</string>
+    <string name="permission_screen_modified_desc">We have identified that you have modified some permissions. It is recommended that you Logout and Login again in the app for permission to take affect.</string>
+
+    <!-- App Gallery -->
+    <string name="app_gallery_title">App Gallery</string>
+    <string name="app_gallery_loading">Loading featured apps. Please wait..</string>
+    <string name="app_gallery_error_msg">Can\'t load featured apps now. Please try again later.</string>
+    <string name="app_gallery_missing_package">Feature has been removed by the admin. Please contact admin.</string>
+    <string name="app_gallery_subtitle">Azuga App Recommendations</string>
+    <string name="app_gallery_desc">The Azuga Team is constantly looking out for apps that can help you.\n\n\nGet started by tapping the button below and explore a curated range of apps picked exclusively for you.\n\n\nDo let us know your feedback by writing to us at feedback@azuga.com</string>
+    <string name="app_gallery_explore">Explore Apps</string>
+
+    <!-- Track Me -->
+    <string name="trackme_title">TrackMe</string>
+    <string name="trackme_time_help">Select the duration for which your vehicle\'s location should be shared</string>
+    <string name="trackme_location_help">Enter the destination so that the person following you can be notified once you arrive. This is an optional step.</string>
+    <string name="trackme_location_hint">Enter address</string>
+    <string name="trackme_create_link">Start Sharing</string>
+    <string name="trackme_create_link_progress">Generating Link. Please wait.</string>
+    <string name="trackme_sharing_active">Location Sharing Status</string>
+    <string name="trackme_increase_duration">Extend Duration</string>
+    <string name="trackme_extend_time_progress">Extending Duration. Please wait.</string>
+    <string name="trackme_copy_clipboard">Copy</string>
+    <string name="trackme_share_azuga">Azuga Message</string>
+    <string name="trackme_share_external">Share</string>
+    <string name="trackme_stop_sharing">Stop Sharing</string>
+    <string name="trackme_expire_link_progress">Invalidating Link. Please wait.</string>
+    <string name="trackme_share_link_copied">Copied to clipboard</string>
+    <string name="trackme_share_msg">I am sharing my location using Azuga\'s TrackMe. Follow me at %1$s</string>
+    <string name="trackme_time_15m">15\nmin</string>
+    <string name="trackme_time_30m">30\nmin</string>
+    <string name="trackme_time_1h">01\nhr</string>
+    <string name="trackme_time_2h">02\nhr</string>
+    <string name="trackme_time_4h">04\nhr</string>
+    <string name="trackme_time_8h">08\nhr</string>
+    <string name="trackme_time_16h">16\nhr</string>
+    <string name="trackme_time_24h">24\nhr</string>
+
+
+    <!-- Submit a lead -->
+    <string name="lead_start_desc">If you ride shotgun with a co-worker every day, how would you like to earn an extra $300 to $600 per month by using your smartphone?\n\nNote: This activity should be performed when you are not driving the vehicle.</string>
+    <string name="lead_start_detail_title"><b>What\'s this about?</b></string>
+    <string name="lead_start_detail_text">Each day, as you drive around you will see many trucks with a business name and a phone number. Many of these businesses can use Azuga GPS, just like your company does.\n\nWhat we need from you is to do the following :</string>
+    <string name="lead_start_detail_text_list">  • Note down the name and make a phone call.\n\n• Ask a few questions. \n\n• Fill out a form on your phone and submit that to us.</string>
+    <string name="lead_start_detail_more">Tell me more</string>
+
+    <string name="submit_lead_phone_number"><font size="15">Enter phone number</font></string>
+    <string name="submit_lead_company_name"><font size="15">Enter Company\'s Name</font></string>
+    <string name="submit_lead_vendor_name"><font size="15">Name of Vendor</font></string>
+    <string name="submit_lead_contract_expiry"><font size="15">Contract expires on</font></string>
+    <string name="submit_lead_other_notes"><font size="15">Other notes</font></string>
+    <string name="submit_lead_add_more_details"><font size="15">Add more details</font></string>
+    <string name="submit_lead_number_of_vehicles"><font size="15">Number of Vehicles</font></string>
+    <string name="submit_lead_call_err">Please enter the valid phone number to call.</string>
+    <string name="submit_lead_info_page_if_no">Great. How many vehicles do you have?\n\n<b>If they do not answer</b> : Thanks for your time.\n\n<b>If they answer</b> : Note the number of vehicles followed by a thank you note.</string>
+    <string name="submit_lead_info_page_if_yes">Got it. Just curious to know what system do you use? A lot has changed with pricing over the last 2 years and wanted to know if you plan on changing to something new.\n\n<b>If they do not answer</b> :  \‘Thanks for your time.\’\n\n<b>If they answer</b> : Get the name of GPS vendor and when the contract expires if possible followed by a thank you note.</string>
+    <string name="submit_lead_info_page_what_you_should_say">Hi, I was driving on <b>(say street name or highway name)</b> and I noticed your truck. Can I speak to the person in charge of your vehicles?\n\nIf you get transferred :\nHi, I work in <b>(say your company name)</b> and I am conducting a survey on a Driver Rewards + GPS system for your drivers. Do you already use something similar?</string>
+    <string name="submit_lead_done_page_message">The Azuga Sales team will contact this lead shortly. If Azuga converts this into a customer, you will be rewarded with $10x%1$s vehicles, i.e.,</string>
+    <string name="submit_lead_error_heading">Submission Failed</string>
+    <string name="submit_lead_error_message">Something went wrong while trying to submit the details. Please try again, or contact Azuga customer care</string>
+    <string name="submit_lead_here_what_you_should_say"><b>Here’s what you should say</b></string>
+    <string name="submit_lead_if_using_gps"><b>If using GPS System</b></string>
+    <string name="submit_lead_if_not_using_gps"><b>If NOT using GPS System</b></string>
+    <string name="submit_lead_call_now">Call</string>
+    <string name="submit_lead_date">Date</string>
+    <string name="submit_lead_have_gps_system">Already have GPS system?</string>
+    <string name="submit_lead_thank_you">Thank you !</string>
+    <string name="submit_lead_instructions"><b>Instructions</b></string>
+    <string name="submit_lead_instructions_message">• On the next screen, make note of the phone number. \n• Please make a call to that number using the \'Call\' button.</string>
+    <string name="submit_lead_submit">Submit</string>
+    <string name="submit_lead_done">Done</string>
+    <string name="submit_lead_loading">Loading. Please wait&#8230;</string>
+
+    <!-- Taxi IO -->
+    <string name="taxi_prev_trips_label">Previous trips</string>
+    <string name="taxi_start_loc_label">Start point</string>
+    <string name="taxi_start_trip_label">Start Trip</string>
+    <string name="taxi_end_trip_label">End Trip</string>
+    <string name="taxi_distance_label">Distance</string>
+    <string name="taxi_trip_time_label">Trip time</string>
+    <string name="taxi_idle_time_label">Idle time</string>
+    <string name="taxi_trip_complete_label">You have successfully completed your trip</string>
+    <string name="taxi_end_trip_progress">Ending trip. Please wait</string>
+    <string name="taxi_device_change_error">Device change in the vehicle is detected. Your previous device had an active trip. Please tap on the End Trip button to continue.</string>
+    <string name="taxi_location_not_avail">Determining location. Please wait.</string>
+    <string name="taxi_prev_trips_empty">You have not taken any taxi trips in last 15 days</string>
+    <string name="taxi_trip_email_btn">Share Trip</string>
+    <string name="taxi_summary_email_subject">Azuga Trip Details</string>
+    <string name="taxi_summary_email_text">Please find attached the details of your trip with Azuga.</string>
+    <string name="taxi_pairing_change_error">Taxi IO works only when vehicle is paired via Bluetooth. Please pair via bluetooth to use this feature.</string>
+    <string name="taxi_end_trip_confirmation">Are you sure you want to end this trip?</string>
+
+    <!-- Battery Health -->
+    <string name="bh_title">Battery Health</string>
+    <string name="bh_empty_data_msg">No battery data has been recorded for you vehicle so far. Make sure you connect to your vehicle over Bluetooth to let the app collect the battery data.</string>
+    <string name="bh_loading_msg">Loading battery stats. Please wait.</string>
+    <string name="bh_vin_list_avg_voltage">Avg Voltage</string>
+    <string name="bh_vin_list_last_voltage">Last collected Voltage</string>
+
+    <string name="bh_charging_status">Battery Health</string>
+    <string name="bh_charging_status_ok">OK</string>
+    <string name="bh_charging_status_low">LOW</string>
+    <string name="bh_charging_status_low_low">Very Low</string>
+    <string name="bh_charging_status_dead">Critically LOW</string>
+    <string name="bh_avg_voltage">Avg Voltage</string>
+    <string name="bh_last_voltage">Last collected Voltage</string>
+    <string name="bh_max_voltage">Max Voltage</string>
+    <string name="bh_min_voltage">Min Voltage</string>
+    <string name="bh_graph_desc">Battery voltage from %1$s to %2$s</string>
+    <string name="bh_marker_date">Date : %1$s</string>
+    <string name="bh_marker_time">Time : %1$s</string>
+    <string name="bh_marker_voltage">Voltage : %1$sv</string>
+
+    <!-- Vehicle Health -->
+    <string name="engine_monitor_manual_paired">Engine Monitor works only when vehicle is paired via Bluetooth. Please pair via bluetooth to use this feature.</string>
+    <string name="engine_monitor_pairing_disabled">Engine Monitor works only when vehicle is paired via Bluetooth. Please contact your supervisor or Azuga customer care to enable Bluetooth pairing.</string>
+    <string name="vehicle_health_manual_paired">Vehicle Health works only when vehicle is paired via Bluetooth. Please pair via bluetooth to use this feature.</string>
+    <string name="vehicle_health_pairing_disabled">Vehicle Health works only when vehicle is paired via Bluetooth. Please contact your supervisor or Azuga customer care to enable Bluetooth pairing.</string>
+    <string name="vh_title">Vehicle Health</string>
+    <string name="vh_vin_label">VIN :</string>
+    <string name="vh_sno_label">Serial Number :</string>
+    <string name="vh_firmware_label">Firmware :</string>
+    <string name="vh_select_pids_title">Please select PIDs from the list below</string>
+    <string name="vh_pids_submit">Submit</string>
+    <string name="speedometer_min_label">Min:</string>
+    <string name="speedometer_max_label">Max:</string>
+    <string name="vh_error_device_disconnected">You are no longer associated with your vehicle. Tap to pair.</string>
+    <string name="vh_error_no_bt_package">You cannot connect over Bluetooth because of a recent change on your profile. Please contact your supervisor or Azuga customer care.</string>
+    <string name="vh_min_pids_alert_title">PID not selected</string>
+    <string name="vh_min_pids_alert_msg">You need to select at least one PID to proceed further</string>
+    <string name="vh_max_pids_alert_title">Maximum of %1$d PIDs only</string>
+    <string name="vh_max_pids_alert_msg">You can select a maximum of only %1$d PIDs from the list shown</string>
+    <string name="vh_pids_not_configured_alert_title">OBD PID Not Configured</string>
+    <string name="vh_pids_not_configured_alert_msg">Though your vehicle supports this information, we will not be able to display as it is not enabled on the device. Please contact Azuga customer care for more information.</string>
+    <string name="vh_pids_selector_empty_msg">Unfortunately, your vehicle does not report any of the OBD-II PIDs.</string>
+    <string name="vh_request_pids_error">Error while requesting PID Data. Please try again.</string>
+    <string name="vh_empty_dtc_list">Your vehicle looks healthy. No engine diagnostic codes were found.</string>
+    <string name="vh_empty_dtc_list_first_time">Vehicle Health works only when vehicle is paired via Bluetooth. Tap to pair.</string>
+    <string name="vh_dtc_error_when_paired">Something went wrong while trying to fetch engine codes from your vehicle. Please try again or contact Azuga customer care if this issue persists.</string>
+    <string name="vh_dtc_error_waiting">Please wait while we try to fetch engine codes from your vehicle.</string>
+    <string name="dtc_code_label">DTC CODE:</string>
+    <string name="dtc_title_label">TITLE:</string>
+    <string name="dtc_desc_label">DESCRIPTION:</string>
+    <string name="dtc_causes_label">CAUSES:</string>
+    <string name="dtc_symptoms_label">SYMPTOMS:</string>
+    <string name="dtc_occurence_label">OCCURENCE:</string>
+    <string name="dtc_severity_label">SEVERITY:</string>
+    <string name="dtc_repair_label">REPAIR IMPORTANCE:</string>
+    <string name="dtc_reported_time_label">LAST REPORTED TIME:</string>
+    <string name="dtc_status_label">STATUS:</string>
+    <string name="dtc_level_low">Low</string>
+    <string name="dtc_level_medium">Medium</string>
+    <string name="dtc_level_high">High</string>
+    <string name="dtc_fixed">Fixed</string>
+    <string name="dtc_not_fixed">Not Fixed</string>
+    <string name="dtc_no_desc">No description available</string>
+
+    <!-- Live Maps -->
+    <string name="lm_title">Live Status</string>
+    <string name="lm_loading_groups">Fetching group details. Please wait&#8230;</string>
+    <string name="lm_no_group_msg">As an Admin, you must be associated with at least one Group. Please contact your Supervisor or Azuga customer care for the same.</string>
+    <string name="lm_refreshing">Refreshing</string>
+    <string name="lm_refresh_later">Auto-refresh in %1$s</string>
+
+    <string name="lm_filter_title">Filters</string>
+    <string name="lm_filter_title_group">Group</string>
+    <string name="lm_filter_group_help">Allows you to view/modify group selection. Minimum 1 Group must be selected to view the Live Status of the associated vehicles. Maximum 5 Groups can be selected at a time.</string>
+    <string name="lm_filter_group_selected_text">%1$d out of %2$d group(s) selected.</string>
+    <string name="lm_filter_group_none_selected">Please select the group(s) to view Live Status of the associated vehicles. Maximum 5 Groups can be selected.</string>
+    <string name="lm_filter_group_zero_select_error">Please select at least 1 Group to view Live Status of the associated vehicles.</string>
+    <string name="lm_filter_group_selection_changed">Certain changes affecting the current Group association have been made. Please re-select the group(s) to view Live Status of the associated vehicles. Maximum 5 Groups can be selected.</string>
+    <string name="lm_filter_group_modify_btn">Edit Group Filter</string>
+    <string name="lm_filter_title_address">Address</string>
+    <string name="lm_filter_address_help">Allows you to filter vehicles which are in the vicinity of the particular location based on a defined radius.</string>
+    <string name="lm_filter_address_hint">Enter Address</string>
+    <string name="lm_filter_address_radius">Radius  : %1$s</string>
+    <string name="lm_filter_address_clear_btn">Clear Address Filter</string>
+    <string name="lm_filter_group_extra_selected">Maximum 5 Groups can be selected for viewing  Live Status of the associated vehicles.</string>
+    <string name="lm_filter_title_group_selection">Select Group(s)</string>
+
+    <string name="lm_info_title">SELECT OPTION</string>
+    <string name="lm_info_trips">Trip Log</string>
+    <string name="lm_info_contact_driver">Contact Driver</string>
+    <string name="lm_info_contact_driver_call">CALL %1$s</string>
+    <string name="lm_info_contact_driver_sms">Message %1$s</string>
+    <string name="lm_info_contact_driver_chat">Chat</string>
+    <string name="lm_info_navigation">Navigate</string>
+    <string name="lm_info_settings">Settings</string>
+
+    <!-- Live Data List View-->
+    <string name="lm_list_last_tracking_time">Last Tracking Time</string>
+    <string name="lm_list_user_name">User Name</string>
+    <string name="lm_list_vehicle_name">Vehicle Name</string>
+    <string name="lm_list_current_location">Current Location</string>
+    <string name="lm_list_group_name">Group</string>
+    <string name="lm_list_last_activity">Last Activity</string>
+    <string name="lm_list_empty_msg">No live data available</string>
+
+    <string name="lm_vehicle_settings_title">Settings</string>
+    <string name="lm_vehicle_settings_dvc_serial">Serial Number</string>
+    <string name="lm_vehicle_settings_dvc_firmware">Firmware Version</string>
+    <string name="lm_vehicle_settings_dvc_config">Config Version</string>
+
+    <string name="lm_vehicle_settings_vehicle_info">Vehicle</string>
+    <string name="lm_vehicle_settings_vehicle_vin">VIN</string>
+    <string name="lm_vehicle_settings_vehicle_plate">License Plate Number</string>
+    <string name="lm_vehicle_settings_loading">Fetching vehicle information. Please wait&#8230;</string>
+
+    <string name="lm_action_call_err">No contact information available for %1$s.</string>
+    <string name="lm_action_contact_err">No driver associated to the vehicle</string>
+
+    <string name="lm_filter_title_events">Event Filter</string>
+    <string name="lm_filter_event_selected_text">%1$d out of %2$d events selected.</string>
+    <string name="lm_filter_event_modify_btn">Edit Event Filter</string>
+    <string name="lm_filter_event_none_selected">You have to select atleast one event.</string>
+    <string name="lm_filter_event_category_battery">Battery Events</string>
+    <string name="lm_filter_event_category_dvc_exceptions">Device Exceptions</string>
+    <string name="lm_filter_event_category_diagnostics">Diagnostic Events</string>
+    <string name="lm_filter_event_category_driving_violation">Driving Violations</string>
+    <string name="lm_filter_event_category_fuel">Fuel Events</string>
+    <string name="lm_filter_event_category_fence">GeoFence Events</string>
+    <string name="lm_filter_event_category_impact">Impact Event</string>
+    <string name="lm_filter_event_category_mobile_usage">Mobile Usage Events</string>
+    <string name="lm_filter_event_category_pairing">Pairing Events</string>
+    <string name="lm_filter_event_category_trip">Trip Events</string>
+    <string name="lm_filter_event_category_other">Other Events</string>
+
+    <!-- RoadSide Assitance-->
+    <string name="ars_title">ROADSIDE ASSISTANCE</string>
+    <string name="ars_powered_by_allstate">powered by Allstate</string>
+    <string name="ars_confirm_location">Yes, I am here</string>
+    <string name="ars_loc_missing">Please enter your current location before proceeding further.</string>
+    <string name="ars_validate_location_progress">Validating service location&#8230;</string>
+    <string name="ars_unserviceable_area_title">Unserviceable Location</string>
+    <string name="ars_unserviceable_area_msg">We are unable to determine coverage in your area at the moment. Please contact Allstate customer care for further assistance.</string>
+
+    <string name="ars_vehicle_info_title">My Vehicle</string>
+    <string name="ars_vehicle_info_header">Vehicle Information</string>
+    <string name="ars_vehicle_info_ph_number">Cell Phone Number</string>
+    <string name="ars_vehicle_info_vin">VIN</string>
+    <string name="ars_vehicle_info_make">Make</string>
+    <string name="ars_vehicle_info_model">Model</string>
+    <string name="ars_vehicle_info_year">Year</string>
+    <string name="ars_vehicle_info_color">Color</string>
+    <string name="ars_vehicle_info_vin_progress">Getting VIN</string>
+    <string name="ars_vehicle_info_validate_btn">VALIDATE</string>
+    <string name="ars_vehicle_info_confirm_btn">CONFIRM</string>
+    <string name="ars_vehicle_info_ph_missing">Please enter cell phone number.</string>
+    <string name="ars_vehicle_info_ph_invalid">Cell phone number should have 10 digits.</string>
+    <string name="ars_vehicle_info_vin_missing">Please enter the VIN.</string>
+    <string name="ars_vehicle_info_vin_invalid">VIN should be minimum 17 characters.</string>
+    <string name="ars_vehicle_info_color_invalid">Please select the color of your vehicle.</string>
+    <string name="ars_vehicle_info_validation_progress">Validating vehicle details&#8230;</string>
+    <string name="ars_benefit_err_vehicle_not_covered_title">Your vehicle is not covered for roadside assistance.</string>
+    <string name="ars_benefit_err_vehicle_not_covered_msg">This could be because your VIN number is not registered or because you are driving a medium/heavy duty vehicle.\n\n\nPlease contact Azuga customer care or your Fleet Manager for more details.</string>
+    <string name="ars_benefit_err_limit_exhausted_title">Your claims/services have been exhausted.</string>
+    <string name="ars_benefit_err_limit_exhausted_msg">Please contact Azuga customer care or your Fleet Manager for more details.</string>
+
+    <string name="ars_service_selection_title">Choose a Service</string>
+    <string name="ars_service_type_tow_title">TOW</string>
+    <string name="ars_service_type_lockout_title">LOCKOUT</string>
+    <string name="ars_service_type_fuel_delivery_title">FUEL DELIVERY</string>
+    <string name="ars_service_type_tire_change_title">TIRE CHANGE</string>
+    <string name="ars_service_type_jump_start_title">JUMP START</string>
+    <string name="ars_service_type_contact_title">CONTACT US</string>
+
+    <string name="ars_tow_find_service_center_title">TOW SERVICE</string>
+    <string name="ars_tow_service_center_title">Repair Centers</string>
+    <string name="ars_tow_find_service_center_msg">Where should we take your vehicle?</string>
+    <string name="ars_tow_find_service_center_btn">Find Nearby Repair Centers</string>
+    <string name="ars_tow_find_service_center_progress">Searching for nearby repair centers&#8230;</string>
+    <string name="ars_tow_find_service_center_none_title">No Repair Centers found</string>
+    <string name="ars_tow_find_service_center_none_msg">We could not find any repair centers near your location. For assistance, please contact Allstate customer care.</string>
+
+    <string name="ars_tow_find_service_center_err_title">Error</string>
+    <string name="ars_tow_find_service_center_err_msg">Error while finding Repair Centers. Please try again.</string>
+
+    <string name="ars_additional_notes_title">ADD NOTE</string>
+    <string name="ars_additional_notes_msg">Enter more details about your location to help us find you. (Max 150 characters)</string>
+    <string name="ars_additional_notes_msg_hint">Optional</string>
+
+    <string name="ars_summary_title">SUMMARY</string>
+    <string name="ars_summary_header">Request Summary</string>
+    <string name="ars_summary_arrival">Estimated Arrival</string>
+    <string name="ars_summary_service_type">Service Type</string>
+    <string name="ars_summary_tow_location">Repair Center</string>
+    <string name="ars_summary_disablement_location">Disablement Address</string>
+    <string name="ars_summary_vehicle">Vehicle</string>
+    <string name="ars_summary_request_service_btn">REQUEST SERVICE</string>
+    <string name="ars_summary_request_track_btn">TRACK SERVICE</string>
+    <string name="ars_summary_request_progress_msg">Creating service request. Please wait&#8230;</string>
+    <string name="ars_summary_request_err_title">Something went wrong while requesting the service</string>
+    <string name="ars_summary_request_err_msg">Please contact Azuga customer care.</string>
+
+    <string name="ars_lockout_msg">Where are your keys?</string>
+    <string name="ars_lockout_btn_key_broken">LOST / BROKEN</string>
+    <string name="ars_lockout_btn_key_in_vehicle">IN MY VEHICLE</string>
+
+    <string name="ars_fuel_service_msg">What type of fuel do you need?</string>
+    <string name="ars_fuel_type_unleaded">Unleaded</string>
+    <string name="ars_fuel_type_leaded">Diesel</string>
+    <string name="ars_fuel_post_paid_prompt_title">Attention</string>
+    <string name="ars_fuel_post_paid_prompt_msg">Only cash payment will be accepted for fuel deliveries.</string>
+
+    <string name="ars_tow_needed_title">Tow Service needed</string>
+    <string name="ars_tow_needed_msg">Service will be changed to Tow.\nPlease accept in order to proceed.</string>
+
+    <string name="ars_jum_start_state_one_msg">What happens when you try switching the ignition on?</string>
+    <string name="ars_jum_start_state_one_btn_other">OTHER</string>
+    <string name="ars_jum_start_state_one_btn_light_dim">LIGHTS DIM</string>
+
+    <string name="ars_jum_start_state_two_msg">Did the vehicle stop while you were driving?</string>
+
+    <string name="ars_tire_service_which_tire_needs_replacing">Which tire(s) needs to be changed?</string>
+    <string name="ars_tire_service_have_spare">I have a spare tire</string>
+    <string name="ars_tire_service_none_selected">Please select the tire(s) which need to be changed.</string>
+
+    <string name="ars_tracking_eta_title">ETA</string>
+    <string name="ars_tracking_status_title">Status</string>
+    <string name="ars_tracking_contact_number_missing">Sorry, we do not have provider\'s contact details at the moment.</string>
+    <string name="ars_tracking_completed_title">Azuga Roadside Assistance</string>
+    <string name="ars_tracking_completed_msg">Your service has been completed successfully.</string>
+    <string name="ars_tracking_cancelled_title">Azuga Roadside Assistance</string>
+    <string name="ars_tracking_cancelled_msg">Your service has been cancelled.</string>
+    <string name="ars_tracking_btn_cancel_service">Cancel Service</string>
+    <string name="ars_tracking_cancel_service_progress">Requesting cancellation of service. Please wait.</string>
+    <string name="ars_tracking_cancellation_not_allowed_title">Error</string>
+    <string name="ars_tracking_cancellation_not_allowed_msg">Service request cannot be cancelled now. Please contact Allstate Support to cancel the service.</string>
+    <string name="ars_tracking_cancellation_error_msg">We couldn\'t cancel the service at the moment. Please try again later or call Allstate customer care to cancel the service.</string>
+    <string name="ars_tracking_cancel_reason_msg">Please select a reason for cancellation</string>
+    <string name="ars_tracking_cancel_reason_not_required">Service not needed</string>
+    <string name="ars_tracking_cancel_reason_long_eta">ETA too long</string>
+    <string name="ars_tracking_cancel_reason_other">Other</string>
+
+
+    <string name="ars_tracking_provider_not_found_title">Unable to secure a service provider</string>
+    <string name="ars_tracking_provider_not_found_msg">The Roadside Service team has been informed and shall contact you shortly.</string>
+
+    <string name="ars_notification_title">Azuga Roadside Assistance</string>
+    <string name="ars_notification_msg_new_booked">Your request has been created successfully. We\'re waiting for a service provider to accept.</string>
+    <string name="ars_notification_msg_accepted">Your request has been accepted by a service provider. Current ETA is %1$s.</string>
+    <string name="ars_notification_msg_enroute">Your service provider is on his way. Current ETA is %1$s.</string>
+    <string name="ars_notification_msg_aproaching">Your service provider is arriving shortly. Current ETA is %1$s.</string>
+    <string name="ars_notification_msg_arrived">Your service provider has arrived.</string>
+    <string name="ars_notification_msg_loaded">Your vehicle has been loaded on the Tow Truck.</string>
+    <string name="ars_notification_msg_drop_location">Your vehicle has been dropped at the repair center.</string>
+    <string name="ars_notification_msg_completed">Your service has been completed successfully.</string>
+    <string name="ars_notification_msg_cancelled">Your service has been cancelled.</string>
+    <string name="ars_notification_msg_provider_not_found">Unable to secure a service provider. The Roadside Service team has been informed and shall contact you shortly.</string>
+
+    <string name="ars_status_new_job">Searching Provider</string>
+    <string name="ars_status_booked">BOOKED</string>
+    <string name="ars_status_accepted">ACCEPTED</string>
+    <string name="ars_status_enroute">IN ROUTE</string>
+    <string name="ars_status_approaching">APPROACHING</string>
+    <string name="ars_status_arrived">ON SITE</string>
+    <string name="ars_status_loaded">VEHICLE LOADED</string>
+    <string name="ars_status_drop_location">VEHICLE DROPPED</string>
+    <string name="ars_status_completed">COMPLETED</string>
+    <string name="ars_status_cancelled">CANCELLED</string>
+
+</resources>
